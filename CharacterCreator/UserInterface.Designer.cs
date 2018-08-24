@@ -1,6 +1,6 @@
 ﻿namespace CharacterCreator
 {
-    partial class Form1
+    partial class UserInterface
     {
         /// <summary>
         /// Required designer variable.
