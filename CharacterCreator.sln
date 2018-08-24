@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CharacterCreator", "CharacterCreator\CharacterCreator.csproj", "{87BDA9B3-8BB1-48B5-BB05-6D157755DEA3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87BDA9B3-8BB1-48B5-BB05-6D157755DEA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87BDA9B3-8BB1-48B5-BB05-6D157755DEA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87BDA9B3-8BB1-48B5-BB05-6D157755DEA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87BDA9B3-8BB1-48B5-BB05-6D157755DEA3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1C384F63-34B5-483A-9FBC-576223C0B2BB}
+	EndGlobalSection
+EndGlobal
