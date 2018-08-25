@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.uxMenuStrip = new System.Windows.Forms.MenuStrip();
             this.uxFileButton = new System.Windows.Forms.ToolStripMenuItem();
             this.uxOpenButton = new System.Windows.Forms.ToolStripMenuItem();
@@ -55,31 +56,117 @@
             this.uxHeightInches = new System.Windows.Forms.NumericUpDown();
             this.label6 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.uxAddBackStory = new System.Windows.Forms.Button();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.uxAddPhysicalDescription = new System.Windows.Forms.Button();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.uxColorDialog = new System.Windows.Forms.ColorDialog();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.uxEyeButton = new System.Windows.Forms.Button();
-            this.uxHairButton = new System.Windows.Forms.Button();
+            this.uxExtraCharacterTraitsGroup = new System.Windows.Forms.GroupBox();
             this.uxSkinButton = new System.Windows.Forms.Button();
+            this.uxHairButton = new System.Windows.Forms.Button();
+            this.uxEyesButton = new System.Windows.Forms.Button();
+            this.uxSkinPicture = new System.Windows.Forms.PictureBox();
+            this.uxHairPicture = new System.Windows.Forms.PictureBox();
+            this.uxEyesPicture = new System.Windows.Forms.PictureBox();
+            this.uxHomeland = new System.Windows.Forms.TextBox();
+            this.uxDeity = new System.Windows.Forms.TextBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.uxAddPhysicalDescription = new System.Windows.Forms.Button();
+            this.uxAddBackStory = new System.Windows.Forms.Button();
+            this.uxCharacterTraitsGroup = new System.Windows.Forms.GroupBox();
+            this.uxColorDialog = new System.Windows.Forms.ColorDialog();
+            this.uxAbilityScoresGroup = new System.Windows.Forms.GroupBox();
+            this.uxModifierContextMenu = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.addNoteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.uxAbilityLabelContainer = new System.Windows.Forms.TableLayoutPanel();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.uxModifiersContainer = new System.Windows.Forms.TableLayoutPanel();
+            this.uxModifierLabelContainer = new System.Windows.Forms.TableLayoutPanel();
+            this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDown3 = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDown4 = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDown5 = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDown7 = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDown8 = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDown9 = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDown10 = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDown12 = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDown13 = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDown14 = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDown15 = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDown17 = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDown18 = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDown19 = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDown20 = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDown22 = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDown23 = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDown24 = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDown25 = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDown27 = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDown28 = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDown29 = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDown30 = new System.Windows.Forms.NumericUpDown();
+            this.label26 = new System.Windows.Forms.Label();
+            this.uxClass = new System.Windows.Forms.ComboBox();
+            this.uxBaseScoreContainer = new System.Windows.Forms.TableLayoutPanel();
+            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDown16 = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDown21 = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDown26 = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDown31 = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDown6 = new System.Windows.Forms.NumericUpDown();
             this.uxMenuStrip.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.uxLevel)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.uxWeight)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.uxHeightFeet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.uxHeightInches)).BeginInit();
-            this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.uxExtraCharacterTraitsGroup.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.uxSkinPicture)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.uxHairPicture)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.uxEyesPicture)).BeginInit();
+            this.uxCharacterTraitsGroup.SuspendLayout();
+            this.uxAbilityScoresGroup.SuspendLayout();
+            this.uxModifierContextMenu.SuspendLayout();
+            this.uxAbilityLabelContainer.SuspendLayout();
+            this.uxModifiersContainer.SuspendLayout();
+            this.uxModifierLabelContainer.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown13)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown14)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown15)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown17)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown18)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown19)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown20)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown22)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown23)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown24)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown25)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown27)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown28)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown29)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown30)).BeginInit();
+            this.uxBaseScoreContainer.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown16)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown21)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown26)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown31)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown6)).BeginInit();
             this.SuspendLayout();
             // 
             // uxMenuStrip
@@ -164,7 +251,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(127, 58);
+            this.label7.Location = new System.Drawing.Point(132, 58);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(44, 16);
             this.label7.TabIndex = 7;
@@ -184,7 +271,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(6, 92);
+            this.label9.Location = new System.Drawing.Point(6, 124);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(56, 16);
             this.label9.TabIndex = 9;
@@ -194,7 +281,7 @@
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(6, 124);
+            this.label11.Location = new System.Drawing.Point(6, 93);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(50, 16);
             this.label11.TabIndex = 11;
@@ -204,7 +291,7 @@
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(127, 92);
+            this.label12.Location = new System.Drawing.Point(150, 94);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(53, 16);
             this.label12.TabIndex = 12;
@@ -259,7 +346,7 @@
             "Chaotic Evil"});
             this.uxAlignment.Location = new System.Drawing.Point(181, 22);
             this.uxAlignment.Name = "uxAlignment";
-            this.uxAlignment.Size = new System.Drawing.Size(82, 21);
+            this.uxAlignment.Size = new System.Drawing.Size(92, 21);
             this.uxAlignment.TabIndex = 18;
             // 
             // uxRace
@@ -308,7 +395,7 @@
             "Vanara",
             "Vishkanya",
             "Wayang"});
-            this.uxRace.Location = new System.Drawing.Point(172, 57);
+            this.uxRace.Location = new System.Drawing.Point(182, 57);
             this.uxRace.Name = "uxRace";
             this.uxRace.Size = new System.Drawing.Size(91, 21);
             this.uxRace.TabIndex = 20;
@@ -338,7 +425,7 @@
             "Other",
             "Male",
             "Female"});
-            this.uxGender.Location = new System.Drawing.Point(62, 91);
+            this.uxGender.Location = new System.Drawing.Point(62, 123);
             this.uxGender.Name = "uxGender";
             this.uxGender.Size = new System.Drawing.Size(59, 21);
             this.uxGender.TabIndex = 22;
@@ -347,7 +434,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(241, 95);
+            this.label5.Location = new System.Drawing.Point(247, 94);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(26, 16);
             this.label5.TabIndex = 23;
@@ -355,35 +442,35 @@
             // 
             // uxWeight
             // 
-            this.uxWeight.Location = new System.Drawing.Point(181, 93);
+            this.uxWeight.Location = new System.Drawing.Point(202, 92);
             this.uxWeight.Name = "uxWeight";
-            this.uxWeight.Size = new System.Drawing.Size(58, 20);
+            this.uxWeight.Size = new System.Drawing.Size(46, 20);
             this.uxWeight.TabIndex = 25;
             // 
             // uxHeightFeet
             // 
-            this.uxHeightFeet.Location = new System.Drawing.Point(59, 124);
+            this.uxHeightFeet.Location = new System.Drawing.Point(55, 92);
             this.uxHeightFeet.Name = "uxHeightFeet";
-            this.uxHeightFeet.Size = new System.Drawing.Size(44, 20);
+            this.uxHeightFeet.Size = new System.Drawing.Size(30, 20);
             this.uxHeightFeet.TabIndex = 26;
             // 
             // uxHeightInches
             // 
-            this.uxHeightInches.Location = new System.Drawing.Point(120, 124);
+            this.uxHeightInches.Location = new System.Drawing.Point(100, 92);
             this.uxHeightInches.Maximum = new decimal(new int[] {
             11,
             0,
             0,
             0});
             this.uxHeightInches.Name = "uxHeightInches";
-            this.uxHeightInches.Size = new System.Drawing.Size(44, 20);
+            this.uxHeightInches.Size = new System.Drawing.Size(30, 20);
             this.uxHeightInches.TabIndex = 27;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(104, 126);
+            this.label6.Location = new System.Drawing.Point(85, 94);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(17, 16);
             this.label6.TabIndex = 28;
@@ -393,89 +480,98 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(163, 125);
+            this.label10.Location = new System.Drawing.Point(129, 94);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(21, 16);
             this.label10.TabIndex = 29;
             this.label10.Text = "in.";
             // 
-            // groupBox1
+            // uxExtraCharacterTraitsGroup
             // 
-            this.groupBox1.Controls.Add(this.uxSkinButton);
-            this.groupBox1.Controls.Add(this.uxHairButton);
-            this.groupBox1.Controls.Add(this.uxEyeButton);
-            this.groupBox1.Controls.Add(this.pictureBox3);
-            this.groupBox1.Controls.Add(this.pictureBox2);
-            this.groupBox1.Controls.Add(this.pictureBox1);
-            this.groupBox1.Controls.Add(this.textBox2);
-            this.groupBox1.Controls.Add(this.textBox1);
-            this.groupBox1.Controls.Add(this.label14);
-            this.groupBox1.Controls.Add(this.label13);
-            this.groupBox1.Controls.Add(this.uxAddPhysicalDescription);
-            this.groupBox1.Controls.Add(this.uxAddBackStory);
-            this.groupBox1.Location = new System.Drawing.Point(301, 69);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(252, 155);
-            this.groupBox1.TabIndex = 30;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Extra Character Traits";
+            this.uxExtraCharacterTraitsGroup.Controls.Add(this.uxSkinButton);
+            this.uxExtraCharacterTraitsGroup.Controls.Add(this.uxHairButton);
+            this.uxExtraCharacterTraitsGroup.Controls.Add(this.uxEyesButton);
+            this.uxExtraCharacterTraitsGroup.Controls.Add(this.uxSkinPicture);
+            this.uxExtraCharacterTraitsGroup.Controls.Add(this.uxHairPicture);
+            this.uxExtraCharacterTraitsGroup.Controls.Add(this.uxEyesPicture);
+            this.uxExtraCharacterTraitsGroup.Controls.Add(this.uxHomeland);
+            this.uxExtraCharacterTraitsGroup.Controls.Add(this.uxDeity);
+            this.uxExtraCharacterTraitsGroup.Controls.Add(this.label14);
+            this.uxExtraCharacterTraitsGroup.Controls.Add(this.label13);
+            this.uxExtraCharacterTraitsGroup.Controls.Add(this.uxAddPhysicalDescription);
+            this.uxExtraCharacterTraitsGroup.Controls.Add(this.uxAddBackStory);
+            this.uxExtraCharacterTraitsGroup.Location = new System.Drawing.Point(301, 69);
+            this.uxExtraCharacterTraitsGroup.Name = "uxExtraCharacterTraitsGroup";
+            this.uxExtraCharacterTraitsGroup.Size = new System.Drawing.Size(252, 155);
+            this.uxExtraCharacterTraitsGroup.TabIndex = 30;
+            this.uxExtraCharacterTraitsGroup.TabStop = false;
+            this.uxExtraCharacterTraitsGroup.Text = "Extra Character Traits";
             // 
-            // uxAddBackStory
+            // uxSkinButton
             // 
-            this.uxAddBackStory.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.uxAddBackStory.Location = new System.Drawing.Point(9, 23);
-            this.uxAddBackStory.Name = "uxAddBackStory";
-            this.uxAddBackStory.Size = new System.Drawing.Size(105, 51);
-            this.uxAddBackStory.TabIndex = 0;
-            this.uxAddBackStory.Text = "Backstory";
-            this.uxAddBackStory.UseVisualStyleBackColor = true;
+            this.uxSkinButton.Location = new System.Drawing.Point(168, 121);
+            this.uxSkinButton.Name = "uxSkinButton";
+            this.uxSkinButton.Size = new System.Drawing.Size(43, 23);
+            this.uxSkinButton.TabIndex = 14;
+            this.uxSkinButton.Text = "Skin:";
+            this.uxSkinButton.UseVisualStyleBackColor = true;
             // 
-            // groupBox2
+            // uxHairButton
             // 
-            this.groupBox2.Controls.Add(this.uxAlignment);
-            this.groupBox2.Controls.Add(this.label4);
-            this.groupBox2.Controls.Add(this.uxLevel);
-            this.groupBox2.Controls.Add(this.label3);
-            this.groupBox2.Controls.Add(this.uxHeightInches);
-            this.groupBox2.Controls.Add(this.label6);
-            this.groupBox2.Controls.Add(this.label8);
-            this.groupBox2.Controls.Add(this.uxHeightFeet);
-            this.groupBox2.Controls.Add(this.uxSize);
-            this.groupBox2.Controls.Add(this.label5);
-            this.groupBox2.Controls.Add(this.uxWeight);
-            this.groupBox2.Controls.Add(this.label11);
-            this.groupBox2.Controls.Add(this.label9);
-            this.groupBox2.Controls.Add(this.uxGender);
-            this.groupBox2.Controls.Add(this.uxRace);
-            this.groupBox2.Controls.Add(this.label7);
-            this.groupBox2.Controls.Add(this.label12);
-            this.groupBox2.Controls.Add(this.label10);
-            this.groupBox2.Location = new System.Drawing.Point(16, 69);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(279, 155);
-            this.groupBox2.TabIndex = 31;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Character Traits";
+            this.uxHairButton.Location = new System.Drawing.Point(90, 122);
+            this.uxHairButton.Name = "uxHairButton";
+            this.uxHairButton.Size = new System.Drawing.Size(43, 23);
+            this.uxHairButton.TabIndex = 13;
+            this.uxHairButton.Text = "Hair:";
+            this.uxHairButton.UseVisualStyleBackColor = true;
             // 
-            // uxAddPhysicalDescription
+            // uxEyesButton
             // 
-            this.uxAddPhysicalDescription.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.uxAddPhysicalDescription.Location = new System.Drawing.Point(133, 23);
-            this.uxAddPhysicalDescription.Name = "uxAddPhysicalDescription";
-            this.uxAddPhysicalDescription.Size = new System.Drawing.Size(105, 50);
-            this.uxAddPhysicalDescription.TabIndex = 1;
-            this.uxAddPhysicalDescription.Text = "Physical Description";
-            this.uxAddPhysicalDescription.UseVisualStyleBackColor = true;
+            this.uxEyesButton.Location = new System.Drawing.Point(9, 121);
+            this.uxEyesButton.Name = "uxEyesButton";
+            this.uxEyesButton.Size = new System.Drawing.Size(43, 23);
+            this.uxEyesButton.TabIndex = 12;
+            this.uxEyesButton.Text = "Eyes:";
+            this.uxEyesButton.UseVisualStyleBackColor = true;
             // 
-            // label13
+            // uxSkinPicture
             // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(6, 91);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(34, 13);
-            this.label13.TabIndex = 2;
-            this.label13.Text = "Deity:";
+            this.uxSkinPicture.BackColor = System.Drawing.SystemColors.Control;
+            this.uxSkinPicture.Location = new System.Drawing.Point(217, 124);
+            this.uxSkinPicture.Name = "uxSkinPicture";
+            this.uxSkinPicture.Size = new System.Drawing.Size(21, 20);
+            this.uxSkinPicture.TabIndex = 11;
+            this.uxSkinPicture.TabStop = false;
+            // 
+            // uxHairPicture
+            // 
+            this.uxHairPicture.Location = new System.Drawing.Point(137, 124);
+            this.uxHairPicture.Name = "uxHairPicture";
+            this.uxHairPicture.Size = new System.Drawing.Size(21, 20);
+            this.uxHairPicture.TabIndex = 10;
+            this.uxHairPicture.TabStop = false;
+            // 
+            // uxEyesPicture
+            // 
+            this.uxEyesPicture.Location = new System.Drawing.Point(56, 124);
+            this.uxEyesPicture.Name = "uxEyesPicture";
+            this.uxEyesPicture.Size = new System.Drawing.Size(21, 20);
+            this.uxEyesPicture.TabIndex = 9;
+            this.uxEyesPicture.TabStop = false;
+            // 
+            // uxHomeland
+            // 
+            this.uxHomeland.Location = new System.Drawing.Point(159, 88);
+            this.uxHomeland.Name = "uxHomeland";
+            this.uxHomeland.Size = new System.Drawing.Size(79, 20);
+            this.uxHomeland.TabIndex = 5;
+            // 
+            // uxDeity
+            // 
+            this.uxDeity.Location = new System.Drawing.Point(37, 88);
+            this.uxDeity.Name = "uxDeity";
+            this.uxDeity.Size = new System.Drawing.Size(65, 20);
+            this.uxDeity.TabIndex = 4;
             // 
             // label14
             // 
@@ -487,79 +583,741 @@
             this.label14.TabIndex = 3;
             this.label14.Text = "Homeland:";
             // 
-            // textBox1
+            // label13
             // 
-            this.textBox1.Location = new System.Drawing.Point(37, 88);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(65, 20);
-            this.textBox1.TabIndex = 4;
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(6, 91);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(34, 13);
+            this.label13.TabIndex = 2;
+            this.label13.Text = "Deity:";
             // 
-            // textBox2
+            // uxAddPhysicalDescription
             // 
-            this.textBox2.Location = new System.Drawing.Point(159, 88);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(79, 20);
-            this.textBox2.TabIndex = 5;
+            this.uxAddPhysicalDescription.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.uxAddPhysicalDescription.Location = new System.Drawing.Point(133, 23);
+            this.uxAddPhysicalDescription.Name = "uxAddPhysicalDescription";
+            this.uxAddPhysicalDescription.Size = new System.Drawing.Size(105, 50);
+            this.uxAddPhysicalDescription.TabIndex = 1;
+            this.uxAddPhysicalDescription.Text = "Physical Description";
+            this.uxAddPhysicalDescription.UseVisualStyleBackColor = true;
             // 
-            // pictureBox1
+            // uxAddBackStory
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(56, 124);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(21, 20);
-            this.pictureBox1.TabIndex = 9;
-            this.pictureBox1.TabStop = false;
+            this.uxAddBackStory.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.uxAddBackStory.Location = new System.Drawing.Point(9, 23);
+            this.uxAddBackStory.Name = "uxAddBackStory";
+            this.uxAddBackStory.Size = new System.Drawing.Size(105, 51);
+            this.uxAddBackStory.TabIndex = 0;
+            this.uxAddBackStory.Text = "Backstory";
+            this.uxAddBackStory.UseVisualStyleBackColor = true;
             // 
-            // pictureBox2
+            // uxCharacterTraitsGroup
             // 
-            this.pictureBox2.Location = new System.Drawing.Point(137, 124);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(21, 20);
-            this.pictureBox2.TabIndex = 10;
-            this.pictureBox2.TabStop = false;
+            this.uxCharacterTraitsGroup.Controls.Add(this.uxClass);
+            this.uxCharacterTraitsGroup.Controls.Add(this.label26);
+            this.uxCharacterTraitsGroup.Controls.Add(this.uxAlignment);
+            this.uxCharacterTraitsGroup.Controls.Add(this.label4);
+            this.uxCharacterTraitsGroup.Controls.Add(this.uxLevel);
+            this.uxCharacterTraitsGroup.Controls.Add(this.label3);
+            this.uxCharacterTraitsGroup.Controls.Add(this.uxHeightInches);
+            this.uxCharacterTraitsGroup.Controls.Add(this.label8);
+            this.uxCharacterTraitsGroup.Controls.Add(this.uxHeightFeet);
+            this.uxCharacterTraitsGroup.Controls.Add(this.uxGender);
+            this.uxCharacterTraitsGroup.Controls.Add(this.label9);
+            this.uxCharacterTraitsGroup.Controls.Add(this.uxSize);
+            this.uxCharacterTraitsGroup.Controls.Add(this.label5);
+            this.uxCharacterTraitsGroup.Controls.Add(this.uxWeight);
+            this.uxCharacterTraitsGroup.Controls.Add(this.label11);
+            this.uxCharacterTraitsGroup.Controls.Add(this.uxRace);
+            this.uxCharacterTraitsGroup.Controls.Add(this.label7);
+            this.uxCharacterTraitsGroup.Controls.Add(this.label12);
+            this.uxCharacterTraitsGroup.Controls.Add(this.label10);
+            this.uxCharacterTraitsGroup.Controls.Add(this.label6);
+            this.uxCharacterTraitsGroup.Location = new System.Drawing.Point(16, 69);
+            this.uxCharacterTraitsGroup.Name = "uxCharacterTraitsGroup";
+            this.uxCharacterTraitsGroup.Size = new System.Drawing.Size(279, 155);
+            this.uxCharacterTraitsGroup.TabIndex = 31;
+            this.uxCharacterTraitsGroup.TabStop = false;
+            this.uxCharacterTraitsGroup.Text = "Character Traits";
             // 
-            // pictureBox3
+            // uxAbilityScoresGroup
             // 
-            this.pictureBox3.BackColor = System.Drawing.SystemColors.Control;
-            this.pictureBox3.Location = new System.Drawing.Point(217, 124);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(21, 20);
-            this.pictureBox3.TabIndex = 11;
-            this.pictureBox3.TabStop = false;
+            this.uxAbilityScoresGroup.Controls.Add(this.uxBaseScoreContainer);
+            this.uxAbilityScoresGroup.Controls.Add(this.uxModifierLabelContainer);
+            this.uxAbilityScoresGroup.Controls.Add(this.uxModifiersContainer);
+            this.uxAbilityScoresGroup.Controls.Add(this.uxAbilityLabelContainer);
+            this.uxAbilityScoresGroup.Location = new System.Drawing.Point(16, 230);
+            this.uxAbilityScoresGroup.Name = "uxAbilityScoresGroup";
+            this.uxAbilityScoresGroup.Size = new System.Drawing.Size(537, 245);
+            this.uxAbilityScoresGroup.TabIndex = 32;
+            this.uxAbilityScoresGroup.TabStop = false;
+            this.uxAbilityScoresGroup.Text = "Ability Scores";
             // 
-            // uxEyeButton
+            // uxModifierContextMenu
             // 
-            this.uxEyeButton.Location = new System.Drawing.Point(9, 121);
-            this.uxEyeButton.Name = "uxEyeButton";
-            this.uxEyeButton.Size = new System.Drawing.Size(43, 23);
-            this.uxEyeButton.TabIndex = 12;
-            this.uxEyeButton.Text = "Eyes:";
-            this.uxEyeButton.UseVisualStyleBackColor = true;
+            this.uxModifierContextMenu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.addNoteToolStripMenuItem});
+            this.uxModifierContextMenu.Name = "uxModifierContextMenu";
+            this.uxModifierContextMenu.Size = new System.Drawing.Size(126, 26);
             // 
-            // uxHairButton
+            // addNoteToolStripMenuItem
             // 
-            this.uxHairButton.Location = new System.Drawing.Point(90, 122);
-            this.uxHairButton.Name = "uxHairButton";
-            this.uxHairButton.Size = new System.Drawing.Size(43, 23);
-            this.uxHairButton.TabIndex = 13;
-            this.uxHairButton.Text = "Hair:";
-            this.uxHairButton.UseVisualStyleBackColor = true;
+            this.addNoteToolStripMenuItem.Name = "addNoteToolStripMenuItem";
+            this.addNoteToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
+            this.addNoteToolStripMenuItem.Text = "Add Note";
             // 
-            // uxSkinButton
+            // label21
             // 
-            this.uxSkinButton.Location = new System.Drawing.Point(168, 121);
-            this.uxSkinButton.Name = "uxSkinButton";
-            this.uxSkinButton.Size = new System.Drawing.Size(43, 23);
-            this.uxSkinButton.TabIndex = 14;
-            this.uxSkinButton.Text = "Skin:";
-            this.uxSkinButton.UseVisualStyleBackColor = true;
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(3, 0);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(59, 13);
+            this.label21.TabIndex = 6;
+            this.label21.Text = "base score";
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Location = new System.Drawing.Point(270, 0);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(78, 13);
+            this.label22.TabIndex = 7;
+            this.label22.Text = "temp modifier 2";
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Location = new System.Drawing.Point(181, 0);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(78, 13);
+            this.label23.TabIndex = 8;
+            this.label23.Text = "temp modifier 1";
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Location = new System.Drawing.Point(92, 0);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(69, 13);
+            this.label24.TabIndex = 9;
+            this.label24.Text = "base modifier";
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Location = new System.Drawing.Point(359, 0);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(66, 13);
+            this.label25.TabIndex = 10;
+            this.label25.Text = "total modifier";
+            // 
+            // uxAbilityLabelContainer
+            // 
+            this.uxAbilityLabelContainer.AutoSize = true;
+            this.uxAbilityLabelContainer.ColumnCount = 1;
+            this.uxAbilityLabelContainer.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.uxAbilityLabelContainer.Controls.Add(this.label19, 0, 5);
+            this.uxAbilityLabelContainer.Controls.Add(this.label20, 0, 4);
+            this.uxAbilityLabelContainer.Controls.Add(this.label16, 0, 3);
+            this.uxAbilityLabelContainer.Controls.Add(this.label17, 0, 2);
+            this.uxAbilityLabelContainer.Controls.Add(this.label15, 0, 0);
+            this.uxAbilityLabelContainer.Controls.Add(this.label18, 0, 1);
+            this.uxAbilityLabelContainer.Location = new System.Drawing.Point(9, 54);
+            this.uxAbilityLabelContainer.Name = "uxAbilityLabelContainer";
+            this.uxAbilityLabelContainer.RowCount = 6;
+            this.uxAbilityLabelContainer.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.uxAbilityLabelContainer.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.uxAbilityLabelContainer.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.uxAbilityLabelContainer.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.uxAbilityLabelContainer.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.uxAbilityLabelContainer.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.uxAbilityLabelContainer.Size = new System.Drawing.Size(47, 186);
+            this.uxAbilityLabelContainer.TabIndex = 33;
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.Location = new System.Drawing.Point(3, 31);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(35, 16);
+            this.label18.TabIndex = 3;
+            this.label18.Text = "DEX";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Location = new System.Drawing.Point(3, 0);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(36, 16);
+            this.label15.TabIndex = 0;
+            this.label15.Text = "STR";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Location = new System.Drawing.Point(3, 62);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(37, 16);
+            this.label17.TabIndex = 2;
+            this.label17.Text = "CON";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(3, 93);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(30, 16);
+            this.label16.TabIndex = 1;
+            this.label16.Text = "INT";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.Location = new System.Drawing.Point(3, 124);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(33, 16);
+            this.label20.TabIndex = 5;
+            this.label20.Text = "WIS";
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.Location = new System.Drawing.Point(3, 155);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(36, 16);
+            this.label19.TabIndex = 4;
+            this.label19.Text = "CHA";
+            // 
+            // uxModifiersContainer
+            // 
+            this.uxModifiersContainer.ColumnCount = 4;
+            this.uxModifiersContainer.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.uxModifiersContainer.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.uxModifiersContainer.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.uxModifiersContainer.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.uxModifiersContainer.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.uxModifiersContainer.Controls.Add(this.numericUpDown30, 3, 5);
+            this.uxModifiersContainer.Controls.Add(this.numericUpDown29, 2, 5);
+            this.uxModifiersContainer.Controls.Add(this.numericUpDown28, 1, 5);
+            this.uxModifiersContainer.Controls.Add(this.numericUpDown27, 0, 5);
+            this.uxModifiersContainer.Controls.Add(this.numericUpDown25, 3, 4);
+            this.uxModifiersContainer.Controls.Add(this.numericUpDown24, 2, 4);
+            this.uxModifiersContainer.Controls.Add(this.numericUpDown23, 1, 4);
+            this.uxModifiersContainer.Controls.Add(this.numericUpDown22, 0, 4);
+            this.uxModifiersContainer.Controls.Add(this.numericUpDown20, 3, 3);
+            this.uxModifiersContainer.Controls.Add(this.numericUpDown19, 2, 3);
+            this.uxModifiersContainer.Controls.Add(this.numericUpDown18, 1, 3);
+            this.uxModifiersContainer.Controls.Add(this.numericUpDown17, 0, 3);
+            this.uxModifiersContainer.Controls.Add(this.numericUpDown15, 3, 2);
+            this.uxModifiersContainer.Controls.Add(this.numericUpDown14, 2, 2);
+            this.uxModifiersContainer.Controls.Add(this.numericUpDown13, 1, 2);
+            this.uxModifiersContainer.Controls.Add(this.numericUpDown12, 0, 2);
+            this.uxModifiersContainer.Controls.Add(this.numericUpDown10, 3, 1);
+            this.uxModifiersContainer.Controls.Add(this.numericUpDown9, 2, 1);
+            this.uxModifiersContainer.Controls.Add(this.numericUpDown8, 1, 1);
+            this.uxModifiersContainer.Controls.Add(this.numericUpDown7, 0, 1);
+            this.uxModifiersContainer.Controls.Add(this.numericUpDown5, 3, 0);
+            this.uxModifiersContainer.Controls.Add(this.numericUpDown4, 2, 0);
+            this.uxModifiersContainer.Controls.Add(this.numericUpDown3, 1, 0);
+            this.uxModifiersContainer.Controls.Add(this.numericUpDown2, 0, 0);
+            this.uxModifiersContainer.Location = new System.Drawing.Point(169, 50);
+            this.uxModifiersContainer.Name = "uxModifiersContainer";
+            this.uxModifiersContainer.RowCount = 6;
+            this.uxModifiersContainer.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.uxModifiersContainer.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.uxModifiersContainer.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.uxModifiersContainer.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.uxModifiersContainer.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.uxModifiersContainer.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.uxModifiersContainer.Size = new System.Drawing.Size(353, 189);
+            this.uxModifiersContainer.TabIndex = 34;
+            // 
+            // uxModifierLabelContainer
+            // 
+            this.uxModifierLabelContainer.ColumnCount = 5;
+            this.uxModifierLabelContainer.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.uxModifierLabelContainer.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.uxModifierLabelContainer.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.uxModifierLabelContainer.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.uxModifierLabelContainer.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.uxModifierLabelContainer.Controls.Add(this.label21, 0, 0);
+            this.uxModifierLabelContainer.Controls.Add(this.label24, 1, 0);
+            this.uxModifierLabelContainer.Controls.Add(this.label25, 4, 0);
+            this.uxModifierLabelContainer.Controls.Add(this.label23, 2, 0);
+            this.uxModifierLabelContainer.Controls.Add(this.label22, 3, 0);
+            this.uxModifierLabelContainer.Location = new System.Drawing.Point(74, 21);
+            this.uxModifierLabelContainer.Name = "uxModifierLabelContainer";
+            this.uxModifierLabelContainer.RowCount = 1;
+            this.uxModifierLabelContainer.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.uxModifierLabelContainer.Size = new System.Drawing.Size(448, 26);
+            this.uxModifierLabelContainer.TabIndex = 33;
+            // 
+            // numericUpDown2
+            // 
+            this.numericUpDown2.Location = new System.Drawing.Point(3, 3);
+            this.numericUpDown2.Minimum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            -2147483648});
+            this.numericUpDown2.Name = "numericUpDown2";
+            this.numericUpDown2.Size = new System.Drawing.Size(53, 20);
+            this.numericUpDown2.TabIndex = 1;
+            // 
+            // numericUpDown3
+            // 
+            this.numericUpDown3.Location = new System.Drawing.Point(91, 3);
+            this.numericUpDown3.Minimum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            -2147483648});
+            this.numericUpDown3.Name = "numericUpDown3";
+            this.numericUpDown3.Size = new System.Drawing.Size(53, 20);
+            this.numericUpDown3.TabIndex = 2;
+            // 
+            // numericUpDown4
+            // 
+            this.numericUpDown4.Location = new System.Drawing.Point(179, 3);
+            this.numericUpDown4.Minimum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            -2147483648});
+            this.numericUpDown4.Name = "numericUpDown4";
+            this.numericUpDown4.Size = new System.Drawing.Size(53, 20);
+            this.numericUpDown4.TabIndex = 3;
+            // 
+            // numericUpDown5
+            // 
+            this.numericUpDown5.Location = new System.Drawing.Point(267, 3);
+            this.numericUpDown5.Minimum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            -2147483648});
+            this.numericUpDown5.Name = "numericUpDown5";
+            this.numericUpDown5.ReadOnly = true;
+            this.numericUpDown5.Size = new System.Drawing.Size(53, 20);
+            this.numericUpDown5.TabIndex = 4;
+            // 
+            // numericUpDown7
+            // 
+            this.numericUpDown7.Location = new System.Drawing.Point(3, 34);
+            this.numericUpDown7.Minimum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            -2147483648});
+            this.numericUpDown7.Name = "numericUpDown7";
+            this.numericUpDown7.Size = new System.Drawing.Size(53, 20);
+            this.numericUpDown7.TabIndex = 6;
+            // 
+            // numericUpDown8
+            // 
+            this.numericUpDown8.Location = new System.Drawing.Point(91, 34);
+            this.numericUpDown8.Minimum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            -2147483648});
+            this.numericUpDown8.Name = "numericUpDown8";
+            this.numericUpDown8.Size = new System.Drawing.Size(53, 20);
+            this.numericUpDown8.TabIndex = 7;
+            // 
+            // numericUpDown9
+            // 
+            this.numericUpDown9.Location = new System.Drawing.Point(179, 34);
+            this.numericUpDown9.Minimum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            -2147483648});
+            this.numericUpDown9.Name = "numericUpDown9";
+            this.numericUpDown9.Size = new System.Drawing.Size(53, 20);
+            this.numericUpDown9.TabIndex = 8;
+            // 
+            // numericUpDown10
+            // 
+            this.numericUpDown10.Location = new System.Drawing.Point(267, 34);
+            this.numericUpDown10.Minimum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            -2147483648});
+            this.numericUpDown10.Name = "numericUpDown10";
+            this.numericUpDown10.ReadOnly = true;
+            this.numericUpDown10.Size = new System.Drawing.Size(53, 20);
+            this.numericUpDown10.TabIndex = 9;
+            // 
+            // numericUpDown12
+            // 
+            this.numericUpDown12.Location = new System.Drawing.Point(3, 65);
+            this.numericUpDown12.Minimum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            -2147483648});
+            this.numericUpDown12.Name = "numericUpDown12";
+            this.numericUpDown12.Size = new System.Drawing.Size(53, 20);
+            this.numericUpDown12.TabIndex = 11;
+            // 
+            // numericUpDown13
+            // 
+            this.numericUpDown13.Location = new System.Drawing.Point(91, 65);
+            this.numericUpDown13.Minimum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            -2147483648});
+            this.numericUpDown13.Name = "numericUpDown13";
+            this.numericUpDown13.Size = new System.Drawing.Size(53, 20);
+            this.numericUpDown13.TabIndex = 12;
+            // 
+            // numericUpDown14
+            // 
+            this.numericUpDown14.Location = new System.Drawing.Point(179, 65);
+            this.numericUpDown14.Minimum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            -2147483648});
+            this.numericUpDown14.Name = "numericUpDown14";
+            this.numericUpDown14.Size = new System.Drawing.Size(53, 20);
+            this.numericUpDown14.TabIndex = 13;
+            // 
+            // numericUpDown15
+            // 
+            this.numericUpDown15.Location = new System.Drawing.Point(267, 65);
+            this.numericUpDown15.Minimum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            -2147483648});
+            this.numericUpDown15.Name = "numericUpDown15";
+            this.numericUpDown15.ReadOnly = true;
+            this.numericUpDown15.Size = new System.Drawing.Size(53, 20);
+            this.numericUpDown15.TabIndex = 14;
+            // 
+            // numericUpDown17
+            // 
+            this.numericUpDown17.Location = new System.Drawing.Point(3, 96);
+            this.numericUpDown17.Minimum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            -2147483648});
+            this.numericUpDown17.Name = "numericUpDown17";
+            this.numericUpDown17.Size = new System.Drawing.Size(53, 20);
+            this.numericUpDown17.TabIndex = 16;
+            // 
+            // numericUpDown18
+            // 
+            this.numericUpDown18.Location = new System.Drawing.Point(91, 96);
+            this.numericUpDown18.Minimum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            -2147483648});
+            this.numericUpDown18.Name = "numericUpDown18";
+            this.numericUpDown18.Size = new System.Drawing.Size(53, 20);
+            this.numericUpDown18.TabIndex = 17;
+            // 
+            // numericUpDown19
+            // 
+            this.numericUpDown19.Location = new System.Drawing.Point(179, 96);
+            this.numericUpDown19.Minimum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            -2147483648});
+            this.numericUpDown19.Name = "numericUpDown19";
+            this.numericUpDown19.Size = new System.Drawing.Size(53, 20);
+            this.numericUpDown19.TabIndex = 18;
+            // 
+            // numericUpDown20
+            // 
+            this.numericUpDown20.Location = new System.Drawing.Point(267, 96);
+            this.numericUpDown20.Minimum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            -2147483648});
+            this.numericUpDown20.Name = "numericUpDown20";
+            this.numericUpDown20.ReadOnly = true;
+            this.numericUpDown20.Size = new System.Drawing.Size(53, 20);
+            this.numericUpDown20.TabIndex = 19;
+            // 
+            // numericUpDown22
+            // 
+            this.numericUpDown22.Location = new System.Drawing.Point(3, 127);
+            this.numericUpDown22.Minimum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            -2147483648});
+            this.numericUpDown22.Name = "numericUpDown22";
+            this.numericUpDown22.Size = new System.Drawing.Size(53, 20);
+            this.numericUpDown22.TabIndex = 21;
+            // 
+            // numericUpDown23
+            // 
+            this.numericUpDown23.Location = new System.Drawing.Point(91, 127);
+            this.numericUpDown23.Minimum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            -2147483648});
+            this.numericUpDown23.Name = "numericUpDown23";
+            this.numericUpDown23.Size = new System.Drawing.Size(53, 20);
+            this.numericUpDown23.TabIndex = 22;
+            // 
+            // numericUpDown24
+            // 
+            this.numericUpDown24.Location = new System.Drawing.Point(179, 127);
+            this.numericUpDown24.Minimum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            -2147483648});
+            this.numericUpDown24.Name = "numericUpDown24";
+            this.numericUpDown24.Size = new System.Drawing.Size(53, 20);
+            this.numericUpDown24.TabIndex = 23;
+            // 
+            // numericUpDown25
+            // 
+            this.numericUpDown25.Location = new System.Drawing.Point(267, 127);
+            this.numericUpDown25.Minimum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            -2147483648});
+            this.numericUpDown25.Name = "numericUpDown25";
+            this.numericUpDown25.ReadOnly = true;
+            this.numericUpDown25.Size = new System.Drawing.Size(53, 20);
+            this.numericUpDown25.TabIndex = 24;
+            // 
+            // numericUpDown27
+            // 
+            this.numericUpDown27.Location = new System.Drawing.Point(3, 158);
+            this.numericUpDown27.Minimum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            -2147483648});
+            this.numericUpDown27.Name = "numericUpDown27";
+            this.numericUpDown27.Size = new System.Drawing.Size(53, 20);
+            this.numericUpDown27.TabIndex = 26;
+            // 
+            // numericUpDown28
+            // 
+            this.numericUpDown28.Location = new System.Drawing.Point(91, 158);
+            this.numericUpDown28.Minimum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            -2147483648});
+            this.numericUpDown28.Name = "numericUpDown28";
+            this.numericUpDown28.Size = new System.Drawing.Size(53, 20);
+            this.numericUpDown28.TabIndex = 27;
+            // 
+            // numericUpDown29
+            // 
+            this.numericUpDown29.Location = new System.Drawing.Point(179, 158);
+            this.numericUpDown29.Minimum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            -2147483648});
+            this.numericUpDown29.Name = "numericUpDown29";
+            this.numericUpDown29.Size = new System.Drawing.Size(53, 20);
+            this.numericUpDown29.TabIndex = 28;
+            // 
+            // numericUpDown30
+            // 
+            this.numericUpDown30.Location = new System.Drawing.Point(267, 158);
+            this.numericUpDown30.Minimum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            -2147483648});
+            this.numericUpDown30.Name = "numericUpDown30";
+            this.numericUpDown30.ReadOnly = true;
+            this.numericUpDown30.Size = new System.Drawing.Size(53, 20);
+            this.numericUpDown30.TabIndex = 29;
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label26.Location = new System.Drawing.Point(132, 124);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(45, 16);
+            this.label26.TabIndex = 30;
+            this.label26.Text = "Class:";
+            // 
+            // uxClass
+            // 
+            this.uxClass.FormattingEnabled = true;
+            this.uxClass.Items.AddRange(new object[] {
+            "Dwarf",
+            "Elf",
+            "Gnome",
+            "Half-Elf",
+            "Half-Orc",
+            "Halfling",
+            "Human",
+            "Aasimar",
+            "Catfolk",
+            "Dhampir",
+            "Drow",
+            "Fetchling",
+            "Gnoll",
+            "Goblin",
+            "Hobgoblin",
+            "Ifrit",
+            "Kobold",
+            "Lizardfolk",
+            "Monkey Goblin",
+            "Orc",
+            "Oread",
+            "Ratfolk",
+            "Sylph",
+            "Tengu",
+            "Tiefling",
+            "Undine",
+            "Changeling",
+            "Duergar",
+            "Gillman",
+            "Grippli",
+            "Kitsune",
+            "Merfolk",
+            "Nagaji",
+            "Samsarans",
+            "Skinwalker",
+            "Strix",
+            "Suli",
+            "Svirfneblin",
+            "Triaxian",
+            "Vanara",
+            "Vishkanya",
+            "Wayang"});
+            this.uxClass.Location = new System.Drawing.Point(181, 123);
+            this.uxClass.Name = "uxClass";
+            this.uxClass.Size = new System.Drawing.Size(92, 21);
+            this.uxClass.TabIndex = 31;
+            // 
+            // uxBaseScoreContainer
+            // 
+            this.uxBaseScoreContainer.ColumnCount = 1;
+            this.uxBaseScoreContainer.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.uxBaseScoreContainer.Controls.Add(this.numericUpDown6, 0, 4);
+            this.uxBaseScoreContainer.Controls.Add(this.numericUpDown31, 0, 4);
+            this.uxBaseScoreContainer.Controls.Add(this.numericUpDown26, 0, 3);
+            this.uxBaseScoreContainer.Controls.Add(this.numericUpDown21, 0, 2);
+            this.uxBaseScoreContainer.Controls.Add(this.numericUpDown16, 0, 1);
+            this.uxBaseScoreContainer.Controls.Add(this.numericUpDown1, 0, 0);
+            this.uxBaseScoreContainer.Location = new System.Drawing.Point(77, 50);
+            this.uxBaseScoreContainer.Name = "uxBaseScoreContainer";
+            this.uxBaseScoreContainer.RowCount = 5;
+            this.uxBaseScoreContainer.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66611F));
+            this.uxBaseScoreContainer.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66611F));
+            this.uxBaseScoreContainer.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66611F));
+            this.uxBaseScoreContainer.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66611F));
+            this.uxBaseScoreContainer.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66611F));
+            this.uxBaseScoreContainer.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66945F));
+            this.uxBaseScoreContainer.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.uxBaseScoreContainer.Size = new System.Drawing.Size(76, 189);
+            this.uxBaseScoreContainer.TabIndex = 35;
+            // 
+            // numericUpDown1
+            // 
+            this.numericUpDown1.Location = new System.Drawing.Point(3, 3);
+            this.numericUpDown1.Minimum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            -2147483648});
+            this.numericUpDown1.Name = "numericUpDown1";
+            this.numericUpDown1.Size = new System.Drawing.Size(53, 20);
+            this.numericUpDown1.TabIndex = 2;
+            // 
+            // numericUpDown16
+            // 
+            this.numericUpDown16.Location = new System.Drawing.Point(3, 34);
+            this.numericUpDown16.Minimum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            -2147483648});
+            this.numericUpDown16.Name = "numericUpDown16";
+            this.numericUpDown16.Size = new System.Drawing.Size(53, 20);
+            this.numericUpDown16.TabIndex = 5;
+            // 
+            // numericUpDown21
+            // 
+            this.numericUpDown21.Location = new System.Drawing.Point(3, 65);
+            this.numericUpDown21.Minimum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            -2147483648});
+            this.numericUpDown21.Name = "numericUpDown21";
+            this.numericUpDown21.Size = new System.Drawing.Size(53, 20);
+            this.numericUpDown21.TabIndex = 6;
+            // 
+            // numericUpDown26
+            // 
+            this.numericUpDown26.Location = new System.Drawing.Point(3, 96);
+            this.numericUpDown26.Minimum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            -2147483648});
+            this.numericUpDown26.Name = "numericUpDown26";
+            this.numericUpDown26.Size = new System.Drawing.Size(53, 20);
+            this.numericUpDown26.TabIndex = 7;
+            // 
+            // numericUpDown31
+            // 
+            this.numericUpDown31.Location = new System.Drawing.Point(3, 158);
+            this.numericUpDown31.Minimum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            -2147483648});
+            this.numericUpDown31.Name = "numericUpDown31";
+            this.numericUpDown31.Size = new System.Drawing.Size(53, 20);
+            this.numericUpDown31.TabIndex = 8;
+            // 
+            // numericUpDown6
+            // 
+            this.numericUpDown6.Location = new System.Drawing.Point(3, 127);
+            this.numericUpDown6.Minimum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            -2147483648});
+            this.numericUpDown6.Name = "numericUpDown6";
+            this.numericUpDown6.Size = new System.Drawing.Size(53, 20);
+            this.numericUpDown6.TabIndex = 9;
             // 
             // UserInterface
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(567, 425);
-            this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.groupBox1);
+            this.ClientSize = new System.Drawing.Size(567, 651);
+            this.Controls.Add(this.uxAbilityScoresGroup);
+            this.Controls.Add(this.uxCharacterTraitsGroup);
+            this.Controls.Add(this.uxExtraCharacterTraitsGroup);
             this.Controls.Add(this.uxCharacterName);
             this.Controls.Add(this.uxPlayerName);
             this.Controls.Add(this.label2);
@@ -574,13 +1332,52 @@
             ((System.ComponentModel.ISupportInitialize)(this.uxWeight)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.uxHeightFeet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.uxHeightInches)).EndInit();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            this.uxExtraCharacterTraitsGroup.ResumeLayout(false);
+            this.uxExtraCharacterTraitsGroup.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.uxSkinPicture)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.uxHairPicture)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.uxEyesPicture)).EndInit();
+            this.uxCharacterTraitsGroup.ResumeLayout(false);
+            this.uxCharacterTraitsGroup.PerformLayout();
+            this.uxAbilityScoresGroup.ResumeLayout(false);
+            this.uxAbilityScoresGroup.PerformLayout();
+            this.uxModifierContextMenu.ResumeLayout(false);
+            this.uxAbilityLabelContainer.ResumeLayout(false);
+            this.uxAbilityLabelContainer.PerformLayout();
+            this.uxModifiersContainer.ResumeLayout(false);
+            this.uxModifierLabelContainer.ResumeLayout(false);
+            this.uxModifierLabelContainer.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown13)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown14)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown15)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown17)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown18)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown19)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown20)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown22)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown23)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown24)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown25)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown27)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown28)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown29)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown30)).EndInit();
+            this.uxBaseScoreContainer.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown16)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown21)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown26)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown31)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown6)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -615,21 +1412,71 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.ToolStripMenuItem uxHelp;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.GroupBox uxExtraCharacterTraitsGroup;
+        private System.Windows.Forms.GroupBox uxCharacterTraitsGroup;
         private System.Windows.Forms.Button uxAddBackStory;
         private System.Windows.Forms.Button uxSkinButton;
         private System.Windows.Forms.Button uxHairButton;
-        private System.Windows.Forms.Button uxEyeButton;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button uxEyesButton;
+        private System.Windows.Forms.PictureBox uxSkinPicture;
+        private System.Windows.Forms.PictureBox uxHairPicture;
+        private System.Windows.Forms.PictureBox uxEyesPicture;
+        private System.Windows.Forms.TextBox uxHomeland;
+        private System.Windows.Forms.TextBox uxDeity;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Button uxAddPhysicalDescription;
         private System.Windows.Forms.ColorDialog uxColorDialog;
+        private System.Windows.Forms.GroupBox uxAbilityScoresGroup;
+        private System.Windows.Forms.ContextMenuStrip uxModifierContextMenu;
+        private System.Windows.Forms.ToolStripMenuItem addNoteToolStripMenuItem;
+        private System.Windows.Forms.TableLayoutPanel uxModifierLabelContainer;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.TableLayoutPanel uxModifiersContainer;
+        private System.Windows.Forms.TableLayoutPanel uxAbilityLabelContainer;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.NumericUpDown numericUpDown30;
+        private System.Windows.Forms.NumericUpDown numericUpDown29;
+        private System.Windows.Forms.NumericUpDown numericUpDown28;
+        private System.Windows.Forms.NumericUpDown numericUpDown27;
+        private System.Windows.Forms.NumericUpDown numericUpDown25;
+        private System.Windows.Forms.NumericUpDown numericUpDown24;
+        private System.Windows.Forms.NumericUpDown numericUpDown23;
+        private System.Windows.Forms.NumericUpDown numericUpDown22;
+        private System.Windows.Forms.NumericUpDown numericUpDown20;
+        private System.Windows.Forms.NumericUpDown numericUpDown19;
+        private System.Windows.Forms.NumericUpDown numericUpDown18;
+        private System.Windows.Forms.NumericUpDown numericUpDown17;
+        private System.Windows.Forms.NumericUpDown numericUpDown15;
+        private System.Windows.Forms.NumericUpDown numericUpDown14;
+        private System.Windows.Forms.NumericUpDown numericUpDown13;
+        private System.Windows.Forms.NumericUpDown numericUpDown12;
+        private System.Windows.Forms.NumericUpDown numericUpDown10;
+        private System.Windows.Forms.NumericUpDown numericUpDown9;
+        private System.Windows.Forms.NumericUpDown numericUpDown8;
+        private System.Windows.Forms.NumericUpDown numericUpDown7;
+        private System.Windows.Forms.NumericUpDown numericUpDown5;
+        private System.Windows.Forms.NumericUpDown numericUpDown4;
+        private System.Windows.Forms.NumericUpDown numericUpDown3;
+        private System.Windows.Forms.NumericUpDown numericUpDown2;
+        private System.Windows.Forms.ComboBox uxClass;
+        private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.TableLayoutPanel uxBaseScoreContainer;
+        private System.Windows.Forms.NumericUpDown numericUpDown6;
+        private System.Windows.Forms.NumericUpDown numericUpDown31;
+        private System.Windows.Forms.NumericUpDown numericUpDown26;
+        private System.Windows.Forms.NumericUpDown numericUpDown21;
+        private System.Windows.Forms.NumericUpDown numericUpDown16;
+        private System.Windows.Forms.NumericUpDown numericUpDown1;
     }
 }
 
