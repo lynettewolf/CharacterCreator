@@ -1,6 +1,6 @@
 ﻿namespace CharacterCreator
 {
-    partial class UserInterface
+    partial class MainInterface
     {
         /// <summary>
         /// Required designer variable.
@@ -465,13 +465,13 @@
             // uxOpenButton
             // 
             this.uxOpenButton.Name = "uxOpenButton";
-            this.uxOpenButton.Size = new System.Drawing.Size(180, 22);
+            this.uxOpenButton.Size = new System.Drawing.Size(112, 22);
             this.uxOpenButton.Text = "Open";
             // 
             // uxSaveButton
             // 
             this.uxSaveButton.Name = "uxSaveButton";
-            this.uxSaveButton.Size = new System.Drawing.Size(180, 22);
+            this.uxSaveButton.Size = new System.Drawing.Size(112, 22);
             this.uxSaveButton.Text = "Save as";
             // 
             // uxHelp
@@ -4161,7 +4161,7 @@
             this.uxImageList.ImageSize = new System.Drawing.Size(150, 70);
             this.uxImageList.TransparentColor = System.Drawing.Color.Transparent;
             // 
-            // UserInterface
+            // MainInterface
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -4190,7 +4190,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.uxMenuStrip);
             this.MainMenuStrip = this.uxMenuStrip;
-            this.Name = "UserInterface";
+            this.Name = "MainInterface";
             this.Text = "Character Creator";
             this.uxMenuStrip.ResumeLayout(false);
             this.uxMenuStrip.PerformLayout();
