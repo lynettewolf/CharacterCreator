@@ -297,22 +297,30 @@
             this.label116 = new System.Windows.Forms.Label();
             this.label115 = new System.Windows.Forms.Label();
             this.uxExperienceGroup = new System.Windows.Forms.GroupBox();
-            this.label124 = new System.Windows.Forms.Label();
-            this.label123 = new System.Windows.Forms.Label();
             this.numericUpDown95 = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown94 = new System.Windows.Forms.NumericUpDown();
-            this.uxNextLevelMessage = new System.Windows.Forms.Label();
             this.label122 = new System.Windows.Forms.Label();
             this.label121 = new System.Windows.Forms.Label();
             this.uxWeaponsButton = new System.Windows.Forms.Button();
             this.uxSkillsButton = new System.Windows.Forms.Button();
-            this.uxLanguagesButton = new System.Windows.Forms.Button();
             this.uxFeatsButton = new System.Windows.Forms.Button();
             this.uxInventoryButton = new System.Windows.Forms.Button();
             this.uxSpecialAbilitiesButton = new System.Windows.Forms.Button();
             this.uxSpellsButton = new System.Windows.Forms.Button();
-            this.uxMoneyButton = new System.Windows.Forms.Button();
             this.uxImageList = new System.Windows.Forms.ImageList(this.components);
+            this.uxMoneyGroup = new System.Windows.Forms.GroupBox();
+            this.uxCopper = new System.Windows.Forms.NumericUpDown();
+            this.uxSilver = new System.Windows.Forms.NumericUpDown();
+            this.uxGold = new System.Windows.Forms.NumericUpDown();
+            this.uxPlatinum = new System.Windows.Forms.NumericUpDown();
+            this.label129 = new System.Windows.Forms.Label();
+            this.label130 = new System.Windows.Forms.Label();
+            this.label131 = new System.Windows.Forms.Label();
+            this.label132 = new System.Windows.Forms.Label();
+            this.uxLanguagesGroup = new System.Windows.Forms.GroupBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.uxAddLanguage = new System.Windows.Forms.Button();
+            this.uxRemoveLanguage = new System.Windows.Forms.Button();
             this.uxMenuStrip.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.uxLevel)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.uxWeight)).BeginInit();
@@ -440,6 +448,12 @@
             this.uxExperienceGroup.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown95)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown94)).BeginInit();
+            this.uxMoneyGroup.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.uxCopper)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.uxSilver)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.uxGold)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.uxPlatinum)).BeginInit();
+            this.uxLanguagesGroup.SuspendLayout();
             this.SuspendLayout();
             // 
             // uxMenuStrip
@@ -2338,7 +2352,7 @@
             this.AcInitiativeGroup.Controls.Add(this.label57);
             this.AcInitiativeGroup.Controls.Add(this.label64);
             this.AcInitiativeGroup.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AcInitiativeGroup.Location = new System.Drawing.Point(561, 69);
+            this.AcInitiativeGroup.Location = new System.Drawing.Point(561, 27);
             this.AcInitiativeGroup.Name = "AcInitiativeGroup";
             this.AcInitiativeGroup.Size = new System.Drawing.Size(459, 119);
             this.AcInitiativeGroup.TabIndex = 35;
@@ -2847,7 +2861,7 @@
             this.uxSavingThrowsGroup.Controls.Add(this.label73);
             this.uxSavingThrowsGroup.Controls.Add(this.label70);
             this.uxSavingThrowsGroup.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.uxSavingThrowsGroup.Location = new System.Drawing.Point(561, 194);
+            this.uxSavingThrowsGroup.Location = new System.Drawing.Point(561, 152);
             this.uxSavingThrowsGroup.Name = "uxSavingThrowsGroup";
             this.uxSavingThrowsGroup.Size = new System.Drawing.Size(459, 119);
             this.uxSavingThrowsGroup.TabIndex = 36;
@@ -3384,7 +3398,7 @@
             this.uxCombatBonusesGroup.Controls.Add(this.label91);
             this.uxCombatBonusesGroup.Controls.Add(this.label90);
             this.uxCombatBonusesGroup.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.uxCombatBonusesGroup.Location = new System.Drawing.Point(561, 319);
+            this.uxCombatBonusesGroup.Location = new System.Drawing.Point(561, 281);
             this.uxCombatBonusesGroup.Name = "uxCombatBonusesGroup";
             this.uxCombatBonusesGroup.Size = new System.Drawing.Size(373, 132);
             this.uxCombatBonusesGroup.TabIndex = 37;
@@ -3786,9 +3800,9 @@
             this.uxLoadsGroup.Controls.Add(this.label116);
             this.uxLoadsGroup.Controls.Add(this.label115);
             this.uxLoadsGroup.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.uxLoadsGroup.Location = new System.Drawing.Point(1031, 69);
+            this.uxLoadsGroup.Location = new System.Drawing.Point(1031, 27);
             this.uxLoadsGroup.Name = "uxLoadsGroup";
-            this.uxLoadsGroup.Size = new System.Drawing.Size(173, 244);
+            this.uxLoadsGroup.Size = new System.Drawing.Size(173, 167);
             this.uxLoadsGroup.TabIndex = 38;
             this.uxLoadsGroup.TabStop = false;
             this.uxLoadsGroup.Text = "Loads";
@@ -3796,7 +3810,7 @@
             // uxDragPushLoad
             // 
             this.uxDragPushLoad.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.uxDragPushLoad.Location = new System.Drawing.Point(84, 214);
+            this.uxDragPushLoad.Location = new System.Drawing.Point(83, 134);
             this.uxDragPushLoad.Maximum = new decimal(new int[] {
             10000,
             0,
@@ -3809,7 +3823,7 @@
             // uxOffGroundLoad
             // 
             this.uxOffGroundLoad.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.uxOffGroundLoad.Location = new System.Drawing.Point(84, 176);
+            this.uxOffGroundLoad.Location = new System.Drawing.Point(83, 112);
             this.uxOffGroundLoad.Maximum = new decimal(new int[] {
             10000,
             0,
@@ -3822,7 +3836,7 @@
             // uxOverHeadLoad
             // 
             this.uxOverHeadLoad.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.uxOverHeadLoad.Location = new System.Drawing.Point(84, 138);
+            this.uxOverHeadLoad.Location = new System.Drawing.Point(83, 90);
             this.uxOverHeadLoad.Maximum = new decimal(new int[] {
             10000,
             0,
@@ -3835,7 +3849,7 @@
             // uxHeavyLoad
             // 
             this.uxHeavyLoad.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.uxHeavyLoad.Location = new System.Drawing.Point(84, 100);
+            this.uxHeavyLoad.Location = new System.Drawing.Point(83, 68);
             this.uxHeavyLoad.Maximum = new decimal(new int[] {
             10000,
             0,
@@ -3848,7 +3862,7 @@
             // uxMediumLoad
             // 
             this.uxMediumLoad.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.uxMediumLoad.Location = new System.Drawing.Point(84, 62);
+            this.uxMediumLoad.Location = new System.Drawing.Point(83, 46);
             this.uxMediumLoad.Maximum = new decimal(new int[] {
             10000,
             0,
@@ -3861,7 +3875,7 @@
             // uxLightLoad
             // 
             this.uxLightLoad.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.uxLightLoad.Location = new System.Drawing.Point(84, 25);
+            this.uxLightLoad.Location = new System.Drawing.Point(83, 24);
             this.uxLightLoad.Maximum = new decimal(new int[] {
             10000,
             0,
@@ -3875,7 +3889,7 @@
             // 
             this.label114.AutoSize = true;
             this.label114.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label114.Location = new System.Drawing.Point(8, 64);
+            this.label114.Location = new System.Drawing.Point(8, 48);
             this.label114.Name = "label114";
             this.label114.Size = new System.Drawing.Size(59, 16);
             this.label114.TabIndex = 5;
@@ -3885,7 +3899,7 @@
             // 
             this.label113.AutoSize = true;
             this.label113.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label113.Location = new System.Drawing.Point(8, 140);
+            this.label113.Location = new System.Drawing.Point(8, 92);
             this.label113.Name = "label113";
             this.label113.Size = new System.Drawing.Size(74, 16);
             this.label113.TabIndex = 4;
@@ -3895,7 +3909,7 @@
             // 
             this.label112.AutoSize = true;
             this.label112.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label112.Location = new System.Drawing.Point(8, 178);
+            this.label112.Location = new System.Drawing.Point(8, 114);
             this.label112.Name = "label112";
             this.label112.Size = new System.Drawing.Size(72, 16);
             this.label112.TabIndex = 3;
@@ -3905,7 +3919,7 @@
             // 
             this.label111.AutoSize = true;
             this.label111.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label111.Location = new System.Drawing.Point(8, 216);
+            this.label111.Location = new System.Drawing.Point(8, 136);
             this.label111.Name = "label111";
             this.label111.Size = new System.Drawing.Size(74, 16);
             this.label111.TabIndex = 2;
@@ -3915,7 +3929,7 @@
             // 
             this.label110.AutoSize = true;
             this.label110.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label110.Location = new System.Drawing.Point(8, 102);
+            this.label110.Location = new System.Drawing.Point(8, 70);
             this.label110.Name = "label110";
             this.label110.Size = new System.Drawing.Size(51, 16);
             this.label110.TabIndex = 1;
@@ -3935,7 +3949,7 @@
             // 
             this.label120.AutoSize = true;
             this.label120.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label120.Location = new System.Drawing.Point(141, 216);
+            this.label120.Location = new System.Drawing.Point(141, 136);
             this.label120.Name = "label120";
             this.label120.Size = new System.Drawing.Size(29, 16);
             this.label120.TabIndex = 97;
@@ -3945,7 +3959,7 @@
             // 
             this.label119.AutoSize = true;
             this.label119.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label119.Location = new System.Drawing.Point(141, 178);
+            this.label119.Location = new System.Drawing.Point(141, 114);
             this.label119.Name = "label119";
             this.label119.Size = new System.Drawing.Size(29, 16);
             this.label119.TabIndex = 96;
@@ -3955,7 +3969,7 @@
             // 
             this.label118.AutoSize = true;
             this.label118.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label118.Location = new System.Drawing.Point(141, 140);
+            this.label118.Location = new System.Drawing.Point(141, 92);
             this.label118.Name = "label118";
             this.label118.Size = new System.Drawing.Size(29, 16);
             this.label118.TabIndex = 95;
@@ -3965,7 +3979,7 @@
             // 
             this.label117.AutoSize = true;
             this.label117.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label117.Location = new System.Drawing.Point(141, 102);
+            this.label117.Location = new System.Drawing.Point(141, 70);
             this.label117.Name = "label117";
             this.label117.Size = new System.Drawing.Size(29, 16);
             this.label117.TabIndex = 94;
@@ -3975,7 +3989,7 @@
             // 
             this.label116.AutoSize = true;
             this.label116.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label116.Location = new System.Drawing.Point(141, 64);
+            this.label116.Location = new System.Drawing.Point(141, 48);
             this.label116.Name = "label116";
             this.label116.Size = new System.Drawing.Size(29, 16);
             this.label116.TabIndex = 93;
@@ -3993,82 +4007,49 @@
             // 
             // uxExperienceGroup
             // 
-            this.uxExperienceGroup.Controls.Add(this.label124);
-            this.uxExperienceGroup.Controls.Add(this.label123);
             this.uxExperienceGroup.Controls.Add(this.numericUpDown95);
             this.uxExperienceGroup.Controls.Add(this.numericUpDown94);
-            this.uxExperienceGroup.Controls.Add(this.uxNextLevelMessage);
             this.uxExperienceGroup.Controls.Add(this.label122);
             this.uxExperienceGroup.Controls.Add(this.label121);
             this.uxExperienceGroup.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.uxExperienceGroup.Location = new System.Drawing.Point(950, 319);
+            this.uxExperienceGroup.Location = new System.Drawing.Point(1031, 199);
             this.uxExperienceGroup.Name = "uxExperienceGroup";
-            this.uxExperienceGroup.Size = new System.Drawing.Size(254, 132);
+            this.uxExperienceGroup.Size = new System.Drawing.Size(173, 72);
             this.uxExperienceGroup.TabIndex = 39;
             this.uxExperienceGroup.TabStop = false;
             this.uxExperienceGroup.Text = "Experience";
             // 
-            // label124
-            // 
-            this.label124.AutoSize = true;
-            this.label124.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label124.Location = new System.Drawing.Point(174, 56);
-            this.label124.Name = "label124";
-            this.label124.Size = new System.Drawing.Size(25, 16);
-            this.label124.TabIndex = 6;
-            this.label124.Text = "XP";
-            // 
-            // label123
-            // 
-            this.label123.AutoSize = true;
-            this.label123.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label123.Location = new System.Drawing.Point(174, 28);
-            this.label123.Name = "label123";
-            this.label123.Size = new System.Drawing.Size(25, 16);
-            this.label123.TabIndex = 5;
-            this.label123.Text = "XP";
-            // 
             // numericUpDown95
             // 
             this.numericUpDown95.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown95.Location = new System.Drawing.Point(111, 54);
+            this.numericUpDown95.Location = new System.Drawing.Point(84, 43);
             this.numericUpDown95.Name = "numericUpDown95";
-            this.numericUpDown95.Size = new System.Drawing.Size(57, 22);
+            this.numericUpDown95.Size = new System.Drawing.Size(70, 22);
             this.numericUpDown95.TabIndex = 4;
             // 
             // numericUpDown94
             // 
             this.numericUpDown94.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown94.Location = new System.Drawing.Point(111, 26);
+            this.numericUpDown94.Location = new System.Drawing.Point(84, 21);
             this.numericUpDown94.Name = "numericUpDown94";
-            this.numericUpDown94.Size = new System.Drawing.Size(57, 22);
+            this.numericUpDown94.Size = new System.Drawing.Size(70, 22);
             this.numericUpDown94.TabIndex = 3;
-            // 
-            // uxNextLevelMessage
-            // 
-            this.uxNextLevelMessage.AutoSize = true;
-            this.uxNextLevelMessage.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.uxNextLevelMessage.Location = new System.Drawing.Point(13, 91);
-            this.uxNextLevelMessage.Name = "uxNextLevelMessage";
-            this.uxNextLevelMessage.Size = new System.Drawing.Size(166, 16);
-            this.uxNextLevelMessage.TabIndex = 2;
-            this.uxNextLevelMessage.Text = "Amount of XP until level up:";
             // 
             // label122
             // 
             this.label122.AutoSize = true;
             this.label122.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label122.Location = new System.Drawing.Point(13, 55);
+            this.label122.Location = new System.Drawing.Point(8, 45);
             this.label122.Name = "label122";
-            this.label122.Size = new System.Drawing.Size(84, 16);
+            this.label122.Size = new System.Drawing.Size(70, 16);
             this.label122.TabIndex = 1;
-            this.label122.Text = "Next level at:";
+            this.label122.Text = "Next level:";
             // 
             // label121
             // 
             this.label121.AutoSize = true;
             this.label121.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label121.Location = new System.Drawing.Point(13, 26);
+            this.label121.Location = new System.Drawing.Point(8, 23);
             this.label121.Name = "label121";
             this.label121.Size = new System.Drawing.Size(68, 16);
             this.label121.TabIndex = 0;
@@ -4077,9 +4058,9 @@
             // uxWeaponsButton
             // 
             this.uxWeaponsButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.uxWeaponsButton.Location = new System.Drawing.Point(565, 470);
+            this.uxWeaponsButton.Location = new System.Drawing.Point(565, 426);
             this.uxWeaponsButton.Name = "uxWeaponsButton";
-            this.uxWeaponsButton.Size = new System.Drawing.Size(150, 70);
+            this.uxWeaponsButton.Size = new System.Drawing.Size(129, 70);
             this.uxWeaponsButton.TabIndex = 40;
             this.uxWeaponsButton.Text = "Weapons";
             this.uxWeaponsButton.UseVisualStyleBackColor = true;
@@ -4087,30 +4068,19 @@
             // uxSkillsButton
             // 
             this.uxSkillsButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.uxSkillsButton.Location = new System.Drawing.Point(728, 555);
+            this.uxSkillsButton.Location = new System.Drawing.Point(706, 517);
             this.uxSkillsButton.Name = "uxSkillsButton";
-            this.uxSkillsButton.Size = new System.Drawing.Size(150, 70);
+            this.uxSkillsButton.Size = new System.Drawing.Size(129, 70);
             this.uxSkillsButton.TabIndex = 41;
             this.uxSkillsButton.Text = "Skills";
             this.uxSkillsButton.UseVisualStyleBackColor = true;
             // 
-            // uxLanguagesButton
-            // 
-            this.uxLanguagesButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.uxLanguagesButton.ImageKey = "(none)";
-            this.uxLanguagesButton.Location = new System.Drawing.Point(1054, 470);
-            this.uxLanguagesButton.Name = "uxLanguagesButton";
-            this.uxLanguagesButton.Size = new System.Drawing.Size(150, 70);
-            this.uxLanguagesButton.TabIndex = 42;
-            this.uxLanguagesButton.Text = "Languages";
-            this.uxLanguagesButton.UseVisualStyleBackColor = true;
-            // 
             // uxFeatsButton
             // 
             this.uxFeatsButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.uxFeatsButton.Location = new System.Drawing.Point(728, 470);
+            this.uxFeatsButton.Location = new System.Drawing.Point(706, 426);
             this.uxFeatsButton.Name = "uxFeatsButton";
-            this.uxFeatsButton.Size = new System.Drawing.Size(150, 70);
+            this.uxFeatsButton.Size = new System.Drawing.Size(129, 70);
             this.uxFeatsButton.TabIndex = 43;
             this.uxFeatsButton.Text = "Feats";
             this.uxFeatsButton.UseVisualStyleBackColor = true;
@@ -4118,9 +4088,9 @@
             // uxInventoryButton
             // 
             this.uxInventoryButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.uxInventoryButton.Location = new System.Drawing.Point(565, 555);
+            this.uxInventoryButton.Location = new System.Drawing.Point(565, 517);
             this.uxInventoryButton.Name = "uxInventoryButton";
-            this.uxInventoryButton.Size = new System.Drawing.Size(150, 70);
+            this.uxInventoryButton.Size = new System.Drawing.Size(129, 70);
             this.uxInventoryButton.TabIndex = 44;
             this.uxInventoryButton.Text = "Inventory";
             this.uxInventoryButton.UseVisualStyleBackColor = true;
@@ -4128,9 +4098,9 @@
             // uxSpecialAbilitiesButton
             // 
             this.uxSpecialAbilitiesButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.uxSpecialAbilitiesButton.Location = new System.Drawing.Point(891, 470);
+            this.uxSpecialAbilitiesButton.Location = new System.Drawing.Point(847, 426);
             this.uxSpecialAbilitiesButton.Name = "uxSpecialAbilitiesButton";
-            this.uxSpecialAbilitiesButton.Size = new System.Drawing.Size(150, 70);
+            this.uxSpecialAbilitiesButton.Size = new System.Drawing.Size(129, 70);
             this.uxSpecialAbilitiesButton.TabIndex = 45;
             this.uxSpecialAbilitiesButton.Text = "Special Abilities";
             this.uxSpecialAbilitiesButton.UseVisualStyleBackColor = true;
@@ -4138,22 +4108,12 @@
             // uxSpellsButton
             // 
             this.uxSpellsButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.uxSpellsButton.Location = new System.Drawing.Point(891, 555);
+            this.uxSpellsButton.Location = new System.Drawing.Point(847, 517);
             this.uxSpellsButton.Name = "uxSpellsButton";
-            this.uxSpellsButton.Size = new System.Drawing.Size(150, 70);
+            this.uxSpellsButton.Size = new System.Drawing.Size(129, 70);
             this.uxSpellsButton.TabIndex = 46;
             this.uxSpellsButton.Text = "Spells";
             this.uxSpellsButton.UseVisualStyleBackColor = true;
-            // 
-            // uxMoneyButton
-            // 
-            this.uxMoneyButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.uxMoneyButton.Location = new System.Drawing.Point(1054, 555);
-            this.uxMoneyButton.Name = "uxMoneyButton";
-            this.uxMoneyButton.Size = new System.Drawing.Size(150, 70);
-            this.uxMoneyButton.TabIndex = 47;
-            this.uxMoneyButton.Text = "Money";
-            this.uxMoneyButton.UseVisualStyleBackColor = true;
             // 
             // uxImageList
             // 
@@ -4161,17 +4121,149 @@
             this.uxImageList.ImageSize = new System.Drawing.Size(150, 70);
             this.uxImageList.TransparentColor = System.Drawing.Color.Transparent;
             // 
+            // uxMoneyGroup
+            // 
+            this.uxMoneyGroup.Controls.Add(this.uxCopper);
+            this.uxMoneyGroup.Controls.Add(this.uxSilver);
+            this.uxMoneyGroup.Controls.Add(this.uxGold);
+            this.uxMoneyGroup.Controls.Add(this.uxPlatinum);
+            this.uxMoneyGroup.Controls.Add(this.label129);
+            this.uxMoneyGroup.Controls.Add(this.label130);
+            this.uxMoneyGroup.Controls.Add(this.label131);
+            this.uxMoneyGroup.Controls.Add(this.label132);
+            this.uxMoneyGroup.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.uxMoneyGroup.Location = new System.Drawing.Point(1031, 282);
+            this.uxMoneyGroup.Name = "uxMoneyGroup";
+            this.uxMoneyGroup.Size = new System.Drawing.Size(173, 131);
+            this.uxMoneyGroup.TabIndex = 56;
+            this.uxMoneyGroup.TabStop = false;
+            this.uxMoneyGroup.Text = "Money";
+            // 
+            // uxCopper
+            // 
+            this.uxCopper.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.uxCopper.Location = new System.Drawing.Point(83, 95);
+            this.uxCopper.Name = "uxCopper";
+            this.uxCopper.Size = new System.Drawing.Size(71, 22);
+            this.uxCopper.TabIndex = 55;
+            // 
+            // uxSilver
+            // 
+            this.uxSilver.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.uxSilver.Location = new System.Drawing.Point(83, 70);
+            this.uxSilver.Name = "uxSilver";
+            this.uxSilver.Size = new System.Drawing.Size(71, 22);
+            this.uxSilver.TabIndex = 54;
+            // 
+            // uxGold
+            // 
+            this.uxGold.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.uxGold.Location = new System.Drawing.Point(83, 45);
+            this.uxGold.Name = "uxGold";
+            this.uxGold.Size = new System.Drawing.Size(71, 22);
+            this.uxGold.TabIndex = 53;
+            // 
+            // uxPlatinum
+            // 
+            this.uxPlatinum.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.uxPlatinum.Location = new System.Drawing.Point(83, 20);
+            this.uxPlatinum.Name = "uxPlatinum";
+            this.uxPlatinum.Size = new System.Drawing.Size(71, 22);
+            this.uxPlatinum.TabIndex = 52;
+            // 
+            // label129
+            // 
+            this.label129.AutoSize = true;
+            this.label129.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label129.Location = new System.Drawing.Point(7, 22);
+            this.label129.Name = "label129";
+            this.label129.Size = new System.Drawing.Size(62, 16);
+            this.label129.TabIndex = 48;
+            this.label129.Text = "Platinum:";
+            // 
+            // label130
+            // 
+            this.label130.AutoSize = true;
+            this.label130.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label130.Location = new System.Drawing.Point(7, 46);
+            this.label130.Name = "label130";
+            this.label130.Size = new System.Drawing.Size(40, 16);
+            this.label130.TabIndex = 49;
+            this.label130.Text = "Gold:";
+            // 
+            // label131
+            // 
+            this.label131.AutoSize = true;
+            this.label131.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label131.Location = new System.Drawing.Point(7, 94);
+            this.label131.Name = "label131";
+            this.label131.Size = new System.Drawing.Size(56, 16);
+            this.label131.TabIndex = 51;
+            this.label131.Text = "Copper:";
+            // 
+            // label132
+            // 
+            this.label132.AutoSize = true;
+            this.label132.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label132.Location = new System.Drawing.Point(7, 70);
+            this.label132.Name = "label132";
+            this.label132.Size = new System.Drawing.Size(45, 16);
+            this.label132.TabIndex = 50;
+            this.label132.Text = "Silver:";
+            // 
+            // uxLanguagesGroup
+            // 
+            this.uxLanguagesGroup.Controls.Add(this.uxRemoveLanguage);
+            this.uxLanguagesGroup.Controls.Add(this.uxAddLanguage);
+            this.uxLanguagesGroup.Controls.Add(this.textBox2);
+            this.uxLanguagesGroup.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.uxLanguagesGroup.Location = new System.Drawing.Point(1031, 426);
+            this.uxLanguagesGroup.Name = "uxLanguagesGroup";
+            this.uxLanguagesGroup.Size = new System.Drawing.Size(173, 211);
+            this.uxLanguagesGroup.TabIndex = 57;
+            this.uxLanguagesGroup.TabStop = false;
+            this.uxLanguagesGroup.Text = "Languages";
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(19, 60);
+            this.textBox2.Multiline = true;
+            this.textBox2.Name = "textBox2";
+            this.textBox2.ReadOnly = true;
+            this.textBox2.Size = new System.Drawing.Size(135, 138);
+            this.textBox2.TabIndex = 0;
+            // 
+            // uxAddLanguage
+            // 
+            this.uxAddLanguage.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.uxAddLanguage.Location = new System.Drawing.Point(19, 27);
+            this.uxAddLanguage.Name = "uxAddLanguage";
+            this.uxAddLanguage.Size = new System.Drawing.Size(50, 23);
+            this.uxAddLanguage.TabIndex = 1;
+            this.uxAddLanguage.Text = "Add";
+            this.uxAddLanguage.UseVisualStyleBackColor = true;
+            // 
+            // uxRemoveLanguage
+            // 
+            this.uxRemoveLanguage.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.uxRemoveLanguage.Location = new System.Drawing.Point(75, 27);
+            this.uxRemoveLanguage.Name = "uxRemoveLanguage";
+            this.uxRemoveLanguage.Size = new System.Drawing.Size(77, 23);
+            this.uxRemoveLanguage.TabIndex = 2;
+            this.uxRemoveLanguage.Text = "Remove";
+            this.uxRemoveLanguage.UseVisualStyleBackColor = true;
+            // 
             // MainInterface
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1216, 647);
-            this.Controls.Add(this.uxMoneyButton);
+            this.Controls.Add(this.uxLanguagesGroup);
+            this.Controls.Add(this.uxMoneyGroup);
             this.Controls.Add(this.uxSpellsButton);
             this.Controls.Add(this.uxSpecialAbilitiesButton);
             this.Controls.Add(this.uxInventoryButton);
             this.Controls.Add(this.uxFeatsButton);
-            this.Controls.Add(this.uxLanguagesButton);
             this.Controls.Add(this.uxSkillsButton);
             this.Controls.Add(this.uxWeaponsButton);
             this.Controls.Add(this.uxLoadsGroup);
@@ -4332,6 +4424,14 @@
             this.uxExperienceGroup.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown95)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown94)).EndInit();
+            this.uxMoneyGroup.ResumeLayout(false);
+            this.uxMoneyGroup.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.uxCopper)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.uxSilver)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.uxGold)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.uxPlatinum)).EndInit();
+            this.uxLanguagesGroup.ResumeLayout(false);
+            this.uxLanguagesGroup.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -4607,22 +4707,30 @@
         private System.Windows.Forms.Label label110;
         private System.Windows.Forms.Label label109;
         private System.Windows.Forms.GroupBox uxExperienceGroup;
-        private System.Windows.Forms.Label label124;
-        private System.Windows.Forms.Label label123;
         private System.Windows.Forms.NumericUpDown numericUpDown95;
         private System.Windows.Forms.NumericUpDown numericUpDown94;
-        private System.Windows.Forms.Label uxNextLevelMessage;
         private System.Windows.Forms.Label label122;
         private System.Windows.Forms.Label label121;
         private System.Windows.Forms.Button uxWeaponsButton;
         private System.Windows.Forms.Button uxSkillsButton;
-        private System.Windows.Forms.Button uxLanguagesButton;
         private System.Windows.Forms.Button uxFeatsButton;
         private System.Windows.Forms.Button uxInventoryButton;
         private System.Windows.Forms.Button uxSpecialAbilitiesButton;
         private System.Windows.Forms.Button uxSpellsButton;
-        private System.Windows.Forms.Button uxMoneyButton;
         private System.Windows.Forms.ImageList uxImageList;
+        private System.Windows.Forms.GroupBox uxMoneyGroup;
+        private System.Windows.Forms.NumericUpDown uxCopper;
+        private System.Windows.Forms.NumericUpDown uxSilver;
+        private System.Windows.Forms.NumericUpDown uxGold;
+        private System.Windows.Forms.NumericUpDown uxPlatinum;
+        private System.Windows.Forms.Label label129;
+        private System.Windows.Forms.Label label130;
+        private System.Windows.Forms.Label label131;
+        private System.Windows.Forms.Label label132;
+        private System.Windows.Forms.GroupBox uxLanguagesGroup;
+        private System.Windows.Forms.Button uxRemoveLanguage;
+        private System.Windows.Forms.Button uxAddLanguage;
+        private System.Windows.Forms.TextBox textBox2;
     }
 }
 

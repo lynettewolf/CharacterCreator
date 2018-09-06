@@ -57,23 +57,11 @@
     <Compile Include="InventoryInterface.Designer.cs">
       <DependentUpon>InventoryInterface.cs</DependentUpon>
     </Compile>
-    <Compile Include="LanguageInterface.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="LanguageInterface.Designer.cs">
-      <DependentUpon>LanguageInterface.cs</DependentUpon>
-    </Compile>
     <Compile Include="MainInterface.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="MainInterface.Designer.cs">
       <DependentUpon>MainInterface.cs</DependentUpon>
-    </Compile>
-    <Compile Include="MoneyInterface.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="MoneyInterface.Designer.cs">
-      <DependentUpon>MoneyInterface.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
