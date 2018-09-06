@@ -3398,9 +3398,9 @@
             this.uxCombatBonusesGroup.Controls.Add(this.label91);
             this.uxCombatBonusesGroup.Controls.Add(this.label90);
             this.uxCombatBonusesGroup.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.uxCombatBonusesGroup.Location = new System.Drawing.Point(561, 281);
+            this.uxCombatBonusesGroup.Location = new System.Drawing.Point(560, 277);
             this.uxCombatBonusesGroup.Name = "uxCombatBonusesGroup";
-            this.uxCombatBonusesGroup.Size = new System.Drawing.Size(373, 132);
+            this.uxCombatBonusesGroup.Size = new System.Drawing.Size(459, 132);
             this.uxCombatBonusesGroup.TabIndex = 37;
             this.uxCombatBonusesGroup.TabStop = false;
             this.uxCombatBonusesGroup.Text = "Combat Bonuses";
@@ -3409,7 +3409,7 @@
             // 
             this.label108.AutoSize = true;
             this.label108.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label108.Location = new System.Drawing.Point(325, 26);
+            this.label108.Location = new System.Drawing.Point(405, 25);
             this.label108.Name = "label108";
             this.label108.Size = new System.Drawing.Size(26, 13);
             this.label108.TabIndex = 87;
@@ -3418,7 +3418,7 @@
             // numericUpDown93
             // 
             this.numericUpDown93.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown93.Location = new System.Drawing.Point(318, 42);
+            this.numericUpDown93.Location = new System.Drawing.Point(399, 42);
             this.numericUpDown93.Minimum = new decimal(new int[] {
             100,
             0,
@@ -3432,7 +3432,7 @@
             // 
             this.label107.AutoSize = true;
             this.label107.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label107.Location = new System.Drawing.Point(305, 47);
+            this.label107.Location = new System.Drawing.Point(377, 47);
             this.label107.Name = "label107";
             this.label107.Size = new System.Drawing.Size(13, 13);
             this.label107.TabIndex = 86;
@@ -3441,7 +3441,7 @@
             // numericUpDown91
             // 
             this.numericUpDown91.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown91.Location = new System.Drawing.Point(264, 42);
+            this.numericUpDown91.Location = new System.Drawing.Point(327, 42);
             this.numericUpDown91.Minimum = new decimal(new int[] {
             100,
             0,
@@ -3455,7 +3455,7 @@
             // 
             this.label100.AutoSize = true;
             this.label100.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label100.Location = new System.Drawing.Point(251, 47);
+            this.label100.Location = new System.Drawing.Point(305, 47);
             this.label100.Name = "label100";
             this.label100.Size = new System.Drawing.Size(13, 13);
             this.label100.TabIndex = 84;
@@ -3465,7 +3465,7 @@
             // 
             this.label102.AutoSize = true;
             this.label102.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label102.Location = new System.Drawing.Point(215, 26);
+            this.label102.Location = new System.Drawing.Point(259, 25);
             this.label102.Name = "label102";
             this.label102.Size = new System.Drawing.Size(27, 13);
             this.label102.TabIndex = 79;
@@ -3485,7 +3485,7 @@
             // 
             this.label103.AutoSize = true;
             this.label103.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label103.Location = new System.Drawing.Point(55, 26);
+            this.label103.Location = new System.Drawing.Point(55, 25);
             this.label103.Name = "label103";
             this.label103.Size = new System.Drawing.Size(31, 13);
             this.label103.TabIndex = 82;
@@ -3494,7 +3494,7 @@
             // numericUpDown88
             // 
             this.numericUpDown88.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown88.Location = new System.Drawing.Point(102, 42);
+            this.numericUpDown88.Location = new System.Drawing.Point(111, 42);
             this.numericUpDown88.Minimum = new decimal(new int[] {
             100,
             0,
@@ -3508,7 +3508,7 @@
             // 
             this.label104.AutoSize = true;
             this.label104.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label104.Location = new System.Drawing.Point(156, 26);
+            this.label104.Location = new System.Drawing.Point(180, 25);
             this.label104.Name = "label104";
             this.label104.Size = new System.Drawing.Size(47, 13);
             this.label104.TabIndex = 78;
@@ -3518,7 +3518,7 @@
             // 
             this.label105.AutoSize = true;
             this.label105.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label105.Location = new System.Drawing.Point(256, 26);
+            this.label105.Location = new System.Drawing.Point(317, 25);
             this.label105.Name = "label105";
             this.label105.Size = new System.Drawing.Size(59, 13);
             this.label105.TabIndex = 81;
@@ -3527,7 +3527,7 @@
             // numericUpDown89
             // 
             this.numericUpDown89.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown89.Location = new System.Drawing.Point(156, 42);
+            this.numericUpDown89.Location = new System.Drawing.Point(183, 42);
             this.numericUpDown89.Minimum = new decimal(new int[] {
             100,
             0,
@@ -3541,7 +3541,7 @@
             // 
             this.label106.AutoSize = true;
             this.label106.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label106.Location = new System.Drawing.Point(109, 26);
+            this.label106.Location = new System.Drawing.Point(117, 25);
             this.label106.Name = "label106";
             this.label106.Size = new System.Drawing.Size(31, 13);
             this.label106.TabIndex = 80;
@@ -3550,7 +3550,7 @@
             // numericUpDown90
             // 
             this.numericUpDown90.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown90.Location = new System.Drawing.Point(210, 42);
+            this.numericUpDown90.Location = new System.Drawing.Point(255, 42);
             this.numericUpDown90.Minimum = new decimal(new int[] {
             100,
             0,
@@ -3564,7 +3564,7 @@
             // 
             this.label99.AutoSize = true;
             this.label99.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label99.Location = new System.Drawing.Point(197, 47);
+            this.label99.Location = new System.Drawing.Point(233, 47);
             this.label99.Name = "label99";
             this.label99.Size = new System.Drawing.Size(13, 13);
             this.label99.TabIndex = 71;
@@ -3594,7 +3594,7 @@
             // 
             this.label101.AutoSize = true;
             this.label101.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label101.Location = new System.Drawing.Point(143, 47);
+            this.label101.Location = new System.Drawing.Point(161, 47);
             this.label101.Name = "label101";
             this.label101.Size = new System.Drawing.Size(13, 13);
             this.label101.TabIndex = 73;
@@ -3613,7 +3613,7 @@
             // numericUpDown81
             // 
             this.numericUpDown81.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown81.Location = new System.Drawing.Point(102, 70);
+            this.numericUpDown81.Location = new System.Drawing.Point(111, 70);
             this.numericUpDown81.Minimum = new decimal(new int[] {
             100,
             0,
@@ -3626,7 +3626,7 @@
             // numericUpDown82
             // 
             this.numericUpDown82.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown82.Location = new System.Drawing.Point(156, 70);
+            this.numericUpDown82.Location = new System.Drawing.Point(183, 70);
             this.numericUpDown82.Minimum = new decimal(new int[] {
             100,
             0,
@@ -3639,7 +3639,7 @@
             // numericUpDown85
             // 
             this.numericUpDown85.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown85.Location = new System.Drawing.Point(210, 70);
+            this.numericUpDown85.Location = new System.Drawing.Point(255, 70);
             this.numericUpDown85.Minimum = new decimal(new int[] {
             100,
             0,
@@ -3652,7 +3652,7 @@
             // numericUpDown86
             // 
             this.numericUpDown86.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown86.Location = new System.Drawing.Point(264, 70);
+            this.numericUpDown86.Location = new System.Drawing.Point(327, 70);
             this.numericUpDown86.Minimum = new decimal(new int[] {
             100,
             0,
@@ -3666,7 +3666,7 @@
             // 
             this.label95.AutoSize = true;
             this.label95.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label95.Location = new System.Drawing.Point(197, 75);
+            this.label95.Location = new System.Drawing.Point(233, 75);
             this.label95.Name = "label95";
             this.label95.Size = new System.Drawing.Size(13, 13);
             this.label95.TabIndex = 62;
@@ -3676,7 +3676,7 @@
             // 
             this.label96.AutoSize = true;
             this.label96.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label96.Location = new System.Drawing.Point(251, 75);
+            this.label96.Location = new System.Drawing.Point(305, 75);
             this.label96.Name = "label96";
             this.label96.Size = new System.Drawing.Size(13, 13);
             this.label96.TabIndex = 63;
@@ -3706,7 +3706,7 @@
             // 
             this.label97.AutoSize = true;
             this.label97.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label97.Location = new System.Drawing.Point(143, 75);
+            this.label97.Location = new System.Drawing.Point(161, 75);
             this.label97.Name = "label97";
             this.label97.Size = new System.Drawing.Size(13, 13);
             this.label97.TabIndex = 64;
@@ -4057,60 +4057,60 @@
             // 
             // uxWeaponsButton
             // 
-            this.uxWeaponsButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.uxWeaponsButton.Location = new System.Drawing.Point(565, 426);
+            this.uxWeaponsButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.uxWeaponsButton.Location = new System.Drawing.Point(561, 416);
             this.uxWeaponsButton.Name = "uxWeaponsButton";
-            this.uxWeaponsButton.Size = new System.Drawing.Size(129, 70);
+            this.uxWeaponsButton.Size = new System.Drawing.Size(76, 50);
             this.uxWeaponsButton.TabIndex = 40;
             this.uxWeaponsButton.Text = "Weapons";
             this.uxWeaponsButton.UseVisualStyleBackColor = true;
             // 
             // uxSkillsButton
             // 
-            this.uxSkillsButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.uxSkillsButton.Location = new System.Drawing.Point(706, 517);
+            this.uxSkillsButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.uxSkillsButton.Location = new System.Drawing.Point(644, 472);
             this.uxSkillsButton.Name = "uxSkillsButton";
-            this.uxSkillsButton.Size = new System.Drawing.Size(129, 70);
+            this.uxSkillsButton.Size = new System.Drawing.Size(76, 50);
             this.uxSkillsButton.TabIndex = 41;
             this.uxSkillsButton.Text = "Skills";
             this.uxSkillsButton.UseVisualStyleBackColor = true;
             // 
             // uxFeatsButton
             // 
-            this.uxFeatsButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.uxFeatsButton.Location = new System.Drawing.Point(706, 426);
+            this.uxFeatsButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.uxFeatsButton.Location = new System.Drawing.Point(644, 416);
             this.uxFeatsButton.Name = "uxFeatsButton";
-            this.uxFeatsButton.Size = new System.Drawing.Size(129, 70);
+            this.uxFeatsButton.Size = new System.Drawing.Size(76, 50);
             this.uxFeatsButton.TabIndex = 43;
             this.uxFeatsButton.Text = "Feats";
             this.uxFeatsButton.UseVisualStyleBackColor = true;
             // 
             // uxInventoryButton
             // 
-            this.uxInventoryButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.uxInventoryButton.Location = new System.Drawing.Point(565, 517);
+            this.uxInventoryButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.uxInventoryButton.Location = new System.Drawing.Point(561, 472);
             this.uxInventoryButton.Name = "uxInventoryButton";
-            this.uxInventoryButton.Size = new System.Drawing.Size(129, 70);
+            this.uxInventoryButton.Size = new System.Drawing.Size(76, 50);
             this.uxInventoryButton.TabIndex = 44;
             this.uxInventoryButton.Text = "Inventory";
             this.uxInventoryButton.UseVisualStyleBackColor = true;
             // 
             // uxSpecialAbilitiesButton
             // 
-            this.uxSpecialAbilitiesButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.uxSpecialAbilitiesButton.Location = new System.Drawing.Point(847, 426);
+            this.uxSpecialAbilitiesButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.uxSpecialAbilitiesButton.Location = new System.Drawing.Point(727, 416);
             this.uxSpecialAbilitiesButton.Name = "uxSpecialAbilitiesButton";
-            this.uxSpecialAbilitiesButton.Size = new System.Drawing.Size(129, 70);
+            this.uxSpecialAbilitiesButton.Size = new System.Drawing.Size(76, 50);
             this.uxSpecialAbilitiesButton.TabIndex = 45;
             this.uxSpecialAbilitiesButton.Text = "Special Abilities";
             this.uxSpecialAbilitiesButton.UseVisualStyleBackColor = true;
             // 
             // uxSpellsButton
             // 
-            this.uxSpellsButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.uxSpellsButton.Location = new System.Drawing.Point(847, 517);
+            this.uxSpellsButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.uxSpellsButton.Location = new System.Drawing.Point(727, 472);
             this.uxSpellsButton.Name = "uxSpellsButton";
-            this.uxSpellsButton.Size = new System.Drawing.Size(129, 70);
+            this.uxSpellsButton.Size = new System.Drawing.Size(76, 50);
             this.uxSpellsButton.TabIndex = 46;
             this.uxSpellsButton.Text = "Spells";
             this.uxSpellsButton.UseVisualStyleBackColor = true;
@@ -4132,7 +4132,7 @@
             this.uxMoneyGroup.Controls.Add(this.label131);
             this.uxMoneyGroup.Controls.Add(this.label132);
             this.uxMoneyGroup.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.uxMoneyGroup.Location = new System.Drawing.Point(1031, 282);
+            this.uxMoneyGroup.Location = new System.Drawing.Point(1031, 278);
             this.uxMoneyGroup.Name = "uxMoneyGroup";
             this.uxMoneyGroup.Size = new System.Drawing.Size(173, 131);
             this.uxMoneyGroup.TabIndex = 56;
@@ -4257,6 +4257,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(1216, 647);
             this.Controls.Add(this.uxLanguagesGroup);
             this.Controls.Add(this.uxMoneyGroup);
