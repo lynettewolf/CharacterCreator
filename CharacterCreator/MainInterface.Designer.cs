@@ -124,7 +124,6 @@
             this.uxHpGroup = new System.Windows.Forms.GroupBox();
             this.uxHeal = new System.Windows.Forms.Button();
             this.uxHurt = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.label39 = new System.Windows.Forms.Label();
             this.numericUpDown51 = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown50 = new System.Windows.Forms.NumericUpDown();
@@ -322,6 +321,7 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.uxNotesGroup = new System.Windows.Forms.GroupBox();
             this.uxNotes = new System.Windows.Forms.RichTextBox();
+            this.uxWounds = new System.Windows.Forms.RichTextBox();
             this.uxMenuStrip.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.uxLevel)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.uxWeight)).BeginInit();
@@ -589,6 +589,7 @@
             // uxPlayerName
             // 
             this.uxPlayerName.Location = new System.Drawing.Point(383, 35);
+            this.uxPlayerName.MaxLength = 1000;
             this.uxPlayerName.Name = "uxPlayerName";
             this.uxPlayerName.Size = new System.Drawing.Size(170, 20);
             this.uxPlayerName.TabIndex = 15;
@@ -596,6 +597,7 @@
             // uxCharacterName
             // 
             this.uxCharacterName.Location = new System.Drawing.Point(125, 35);
+            this.uxCharacterName.MaxLength = 1000;
             this.uxCharacterName.Name = "uxCharacterName";
             this.uxCharacterName.Size = new System.Drawing.Size(170, 20);
             this.uxCharacterName.TabIndex = 16;
@@ -1686,9 +1688,9 @@
             // 
             // uxHpGroup
             // 
+            this.uxHpGroup.Controls.Add(this.uxWounds);
             this.uxHpGroup.Controls.Add(this.uxHeal);
             this.uxHpGroup.Controls.Add(this.uxHurt);
-            this.uxHpGroup.Controls.Add(this.textBox1);
             this.uxHpGroup.Controls.Add(this.label39);
             this.uxHpGroup.Controls.Add(this.numericUpDown51);
             this.uxHpGroup.Controls.Add(this.numericUpDown50);
@@ -1725,15 +1727,6 @@
             this.uxHurt.TabIndex = 8;
             this.uxHurt.Text = "Hurt";
             this.uxHurt.UseVisualStyleBackColor = false;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(9, 101);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox1.Size = new System.Drawing.Size(227, 66);
-            this.textBox1.TabIndex = 7;
             // 
             // label39
             // 
@@ -4265,6 +4258,15 @@
             this.uxNotes.TabIndex = 0;
             this.uxNotes.Text = "";
             // 
+            // uxWounds
+            // 
+            this.uxWounds.AcceptsTab = true;
+            this.uxWounds.Location = new System.Drawing.Point(12, 101);
+            this.uxWounds.Name = "uxWounds";
+            this.uxWounds.Size = new System.Drawing.Size(225, 71);
+            this.uxWounds.TabIndex = 10;
+            this.uxWounds.Text = "";
+            // 
             // MainInterface
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -4584,7 +4586,6 @@
         private System.Windows.Forms.Label label36;
         private System.Windows.Forms.Button uxHeal;
         private System.Windows.Forms.Button uxHurt;
-        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label39;
         private System.Windows.Forms.GroupBox AcInitiativeGroup;
         private System.Windows.Forms.NumericUpDown uxTouchAc;
@@ -4747,6 +4748,7 @@
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.GroupBox uxNotesGroup;
         private System.Windows.Forms.RichTextBox uxNotes;
+        private System.Windows.Forms.RichTextBox uxWounds;
     }
 }
 
