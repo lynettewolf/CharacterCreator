@@ -16,5 +16,11 @@ namespace CharacterCreator
         {
             InitializeComponent();
         }
+
+        private void uxEditLanguages_Click(object sender, EventArgs e)
+        {
+            LanguageInterface li = new LanguageInterface();
+            li.Show();
+        }
     }
 }

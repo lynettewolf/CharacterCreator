@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             this.uxLanguageList = new System.Windows.Forms.CheckedListBox();
+            this.uxCancelLanguages = new System.Windows.Forms.Button();
+            this.uxSaveLanguages = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // uxLanguageList
@@ -74,19 +76,44 @@
             "Vegepygmy"});
             this.uxLanguageList.Location = new System.Drawing.Point(12, 12);
             this.uxLanguageList.Name = "uxLanguageList";
-            this.uxLanguageList.Size = new System.Drawing.Size(151, 191);
+            this.uxLanguageList.Size = new System.Drawing.Size(156, 191);
             this.uxLanguageList.Sorted = true;
             this.uxLanguageList.TabIndex = 0;
             this.uxLanguageList.ThreeDCheckBoxes = true;
+            // 
+            // uxCancelLanguages
+            // 
+            this.uxCancelLanguages.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.uxCancelLanguages.Location = new System.Drawing.Point(93, 215);
+            this.uxCancelLanguages.Name = "uxCancelLanguages";
+            this.uxCancelLanguages.Size = new System.Drawing.Size(75, 23);
+            this.uxCancelLanguages.TabIndex = 1;
+            this.uxCancelLanguages.Text = "Cancel";
+            this.uxCancelLanguages.UseVisualStyleBackColor = true;
+            // 
+            // uxSaveLanguages
+            // 
+            this.uxSaveLanguages.DialogResult = System.Windows.Forms.DialogResult.OK;
+            this.uxSaveLanguages.Location = new System.Drawing.Point(12, 215);
+            this.uxSaveLanguages.Name = "uxSaveLanguages";
+            this.uxSaveLanguages.Size = new System.Drawing.Size(75, 23);
+            this.uxSaveLanguages.TabIndex = 2;
+            this.uxSaveLanguages.Text = "Save";
+            this.uxSaveLanguages.UseVisualStyleBackColor = true;
             // 
             // LanguageInterface
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(183, 320);
+            this.ClientSize = new System.Drawing.Size(181, 250);
+            this.Controls.Add(this.uxSaveLanguages);
+            this.Controls.Add(this.uxCancelLanguages);
             this.Controls.Add(this.uxLanguageList);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "LanguageInterface";
-            this.Text = "LanguageInterface";
+            this.Text = "Languages";
             this.ResumeLayout(false);
 
         }
@@ -94,5 +121,7 @@
         #endregion
 
         private System.Windows.Forms.CheckedListBox uxLanguageList;
+        private System.Windows.Forms.Button uxCancelLanguages;
+        private System.Windows.Forms.Button uxSaveLanguages;
     }
 }
