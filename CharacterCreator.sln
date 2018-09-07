@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CharacterCreator", "CharacterCreator\CharacterCreator.csproj", "{87BDA9B3-8BB1-48B5-BB05-6D157755DEA3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextEditor", "..\..\FallCIS300\lab5\Ksu.Cis300.TextEditor\TextEditor.csproj", "{7381CD48-9756-4E65-82CF-65DCD9146DDF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{87BDA9B3-8BB1-48B5-BB05-6D157755DEA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87BDA9B3-8BB1-48B5-BB05-6D157755DEA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87BDA9B3-8BB1-48B5-BB05-6D157755DEA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7381CD48-9756-4E65-82CF-65DCD9146DDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7381CD48-9756-4E65-82CF-65DCD9146DDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7381CD48-9756-4E65-82CF-65DCD9146DDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7381CD48-9756-4E65-82CF-65DCD9146DDF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
