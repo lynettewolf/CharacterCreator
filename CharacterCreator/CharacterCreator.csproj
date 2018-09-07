@@ -114,5 +114,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\FallCIS300\lab5\Ksu.Cis300.TextEditor\TextEditor.csproj">
+      <Project>{7381cd48-9756-4e65-82cf-65dcd9146ddf}</Project>
+      <Name>TextEditor</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
