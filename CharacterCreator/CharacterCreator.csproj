@@ -57,6 +57,12 @@
     <Compile Include="InventoryInterface.Designer.cs">
       <DependentUpon>InventoryInterface.cs</DependentUpon>
     </Compile>
+    <Compile Include="LanguageInterface.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LanguageInterface.Designer.cs">
+      <DependentUpon>LanguageInterface.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainInterface.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -89,6 +95,9 @@
     <Compile Include="WeaponsInterface.Designer.cs">
       <DependentUpon>WeaponsInterface.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="LanguageInterface.resx">
+      <DependentUpon>LanguageInterface.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
