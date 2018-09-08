@@ -318,7 +318,7 @@
             this.label132 = new System.Windows.Forms.Label();
             this.uxLanguagesGroup = new System.Windows.Forms.GroupBox();
             this.uxEditLanguages = new System.Windows.Forms.Button();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.uxLanguageList = new System.Windows.Forms.TextBox();
             this.uxNotesGroup = new System.Windows.Forms.GroupBox();
             this.uxNotes = new System.Windows.Forms.RichTextBox();
             this.uxMenuStrip.SuspendLayout();
@@ -4146,6 +4146,7 @@
             this.uxWeaponsButton.TabIndex = 40;
             this.uxWeaponsButton.Text = "Weapons";
             this.uxWeaponsButton.UseVisualStyleBackColor = true;
+            this.uxWeaponsButton.Click += new System.EventHandler(this.uxWeaponsButton_Click);
             // 
             // uxSkillsButton
             // 
@@ -4156,6 +4157,7 @@
             this.uxSkillsButton.TabIndex = 41;
             this.uxSkillsButton.Text = "Skills";
             this.uxSkillsButton.UseVisualStyleBackColor = true;
+            this.uxSkillsButton.Click += new System.EventHandler(this.uxSkillsButton_Click);
             // 
             // uxFeatsButton
             // 
@@ -4166,6 +4168,7 @@
             this.uxFeatsButton.TabIndex = 43;
             this.uxFeatsButton.Text = "Feats";
             this.uxFeatsButton.UseVisualStyleBackColor = true;
+            this.uxFeatsButton.Click += new System.EventHandler(this.uxFeatsButton_Click);
             // 
             // uxInventoryButton
             // 
@@ -4176,6 +4179,7 @@
             this.uxInventoryButton.TabIndex = 44;
             this.uxInventoryButton.Text = "Inventory";
             this.uxInventoryButton.UseVisualStyleBackColor = true;
+            this.uxInventoryButton.Click += new System.EventHandler(this.uxInventoryButton_Click);
             // 
             // uxSpecialAbilitiesButton
             // 
@@ -4186,6 +4190,7 @@
             this.uxSpecialAbilitiesButton.TabIndex = 45;
             this.uxSpecialAbilitiesButton.Text = "Special Abilities";
             this.uxSpecialAbilitiesButton.UseVisualStyleBackColor = true;
+            this.uxSpecialAbilitiesButton.Click += new System.EventHandler(this.uxSpecialAbilitiesButton_Click);
             // 
             // uxSpellsButton
             // 
@@ -4196,6 +4201,7 @@
             this.uxSpellsButton.TabIndex = 46;
             this.uxSpellsButton.Text = "Spells";
             this.uxSpellsButton.UseVisualStyleBackColor = true;
+            this.uxSpellsButton.Click += new System.EventHandler(this.uxSpellsButton_Click);
             // 
             // uxImageList
             // 
@@ -4296,7 +4302,7 @@
             // uxLanguagesGroup
             // 
             this.uxLanguagesGroup.Controls.Add(this.uxEditLanguages);
-            this.uxLanguagesGroup.Controls.Add(this.textBox2);
+            this.uxLanguagesGroup.Controls.Add(this.uxLanguageList);
             this.uxLanguagesGroup.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.uxLanguagesGroup.Location = new System.Drawing.Point(1031, 426);
             this.uxLanguagesGroup.Name = "uxLanguagesGroup";
@@ -4316,14 +4322,16 @@
             this.uxEditLanguages.UseVisualStyleBackColor = true;
             this.uxEditLanguages.Click += new System.EventHandler(this.uxEditLanguages_Click);
             // 
-            // textBox2
+            // uxLanguageList
             // 
-            this.textBox2.Location = new System.Drawing.Point(8, 21);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.ReadOnly = true;
-            this.textBox2.Size = new System.Drawing.Size(156, 148);
-            this.textBox2.TabIndex = 0;
+            this.uxLanguageList.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.uxLanguageList.Location = new System.Drawing.Point(8, 21);
+            this.uxLanguageList.Multiline = true;
+            this.uxLanguageList.Name = "uxLanguageList";
+            this.uxLanguageList.ReadOnly = true;
+            this.uxLanguageList.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.uxLanguageList.Size = new System.Drawing.Size(156, 148);
+            this.uxLanguageList.TabIndex = 0;
             // 
             // uxNotesGroup
             // 
@@ -4823,7 +4831,7 @@
         private System.Windows.Forms.Label label132;
         private System.Windows.Forms.GroupBox uxLanguagesGroup;
         private System.Windows.Forms.Button uxEditLanguages;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox uxLanguageList;
         private System.Windows.Forms.GroupBox uxNotesGroup;
         private System.Windows.Forms.RichTextBox uxNotes;
         private System.Windows.Forms.RichTextBox uxWounds;
