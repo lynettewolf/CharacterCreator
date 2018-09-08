@@ -10,10 +10,10 @@ using System.Windows.Forms;
 
 namespace CharacterCreator
 {
-    public partial class LanguageInterface : Form
+    public partial class LanguageForm : Form
     {
 
-        public LanguageInterface()
+        public LanguageForm()
         {
             InitializeComponent();
         }

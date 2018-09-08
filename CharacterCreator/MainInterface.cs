@@ -12,13 +12,14 @@ namespace CharacterCreator
 {
     public partial class MainInterface : Form
     {
-        private LanguageInterface li = new LanguageInterface();
-        private WeaponsInterface wi = new WeaponsInterface();
-        private FeatsInterface fi = new FeatsInterface();
-        private SpecialAbilitiesInterface SpAbInt = new SpecialAbilitiesInterface();
-        private InventoryInterface ii = new InventoryInterface();
-        private SkillsInterface ski = new SkillsInterface();
-        private SpellsInterface spi = new SpellsInterface();
+        private LanguageForm _langForm = new LanguageForm();
+        private WeaponsForm _weaponsForm = new WeaponsForm();
+        private FeatsForm _featsForm = new FeatsForm();
+        private SpecAbilitiesForm _specAbilitiesForm = new SpecAbilitiesForm();
+        private InventoryForm _inventoryForm = new InventoryForm();
+        private SkillsForm _skillsForm = new SkillsForm();
+        private SpellsForm _spellsForm = new SpellsForm();
+        private DescriptionForm _descriptionForm = new DescriptionForm();
 
         public MainInterface()
         {
@@ -33,47 +34,52 @@ namespace CharacterCreator
         {
             char[] delimeters = { '\n', '\r' };
             string[] languages = uxLanguageList.Text.Split(delimeters);
-            li.InitializeCheckBoxes(languages);
-            if(li.ShowDialog() == DialogResult.OK)
+            _langForm.InitializeCheckBoxes(languages);
+            if(_langForm.ShowDialog() == DialogResult.OK)
             {
                 uxLanguageList.Clear();
-                uxLanguageList.Lines = li.GetLanguages();
+                uxLanguageList.Lines = _langForm.GetLanguages();
             }
         }
 
         private void uxWeaponsButton_Click(object sender, EventArgs e)
         {
             
-            wi.Show();
+            _weaponsForm.Show();
         }
 
         private void uxFeatsButton_Click(object sender, EventArgs e)
         {
             
-            fi.Show();
+            _featsForm.Show();
         }
 
         private void uxSpecialAbilitiesButton_Click(object sender, EventArgs e)
         {
             
-            SpAbInt.Show();
+            _specAbilitiesForm.Show();
         }
 
         private void uxInventoryButton_Click(object sender, EventArgs e)
         {
             
-            ii.Show();
+            _inventoryForm.Show();
         }
 
         private void uxSkillsButton_Click(object sender, EventArgs e)
         {
             
-            ski.Show();
+            _skillsForm.Show();
         }
 
         private void uxSpellsButton_Click(object sender, EventArgs e)
         {
-            spi.Show();
+            _spellsForm.Show();
+        }
+
+        private void uxCharacterDescriptionButton_Click(object sender, EventArgs e)
+        {
+            _descriptionForm.Show();
         }
     }
 }

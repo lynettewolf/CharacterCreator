@@ -45,23 +45,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FeatsInterface.cs">
+    <Compile Include="DescriptionForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FeatsInterface.Designer.cs">
-      <DependentUpon>FeatsInterface.cs</DependentUpon>
+    <Compile Include="DescriptionForm.Designer.cs">
+      <DependentUpon>DescriptionForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="InventoryInterface.cs">
+    <Compile Include="FeatsForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="InventoryInterface.Designer.cs">
-      <DependentUpon>InventoryInterface.cs</DependentUpon>
+    <Compile Include="FeatsForm.Designer.cs">
+      <DependentUpon>FeatsForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="LanguageInterface.cs">
+    <Compile Include="InventoryForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="LanguageInterface.Designer.cs">
-      <DependentUpon>LanguageInterface.cs</DependentUpon>
+    <Compile Include="InventoryForm.Designer.cs">
+      <DependentUpon>InventoryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LanguageForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LanguageForm.Designer.cs">
+      <DependentUpon>LanguageForm.cs</DependentUpon>
     </Compile>
     <Compile Include="MainInterface.cs">
       <SubType>Form</SubType>
@@ -71,32 +77,35 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SkillsInterface.cs">
+    <Compile Include="SkillsForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SkillsInterface.Designer.cs">
-      <DependentUpon>SkillsInterface.cs</DependentUpon>
+    <Compile Include="SkillsForm.Designer.cs">
+      <DependentUpon>SkillsForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="SpecialAbilitiesInterface.cs">
+    <Compile Include="SpecAbilitiesForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SpecialAbilitiesInterface.Designer.cs">
-      <DependentUpon>SpecialAbilitiesInterface.cs</DependentUpon>
+    <Compile Include="SpecAbilitiesForm.Designer.cs">
+      <DependentUpon>SpecAbilitiesForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="SpellsInterface.cs">
+    <Compile Include="SpellsForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SpellsInterface.Designer.cs">
-      <DependentUpon>SpellsInterface.cs</DependentUpon>
+    <Compile Include="SpellsForm.Designer.cs">
+      <DependentUpon>SpellsForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="WeaponsInterface.cs">
+    <Compile Include="WeaponsForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="WeaponsInterface.Designer.cs">
-      <DependentUpon>WeaponsInterface.cs</DependentUpon>
+    <Compile Include="WeaponsForm.Designer.cs">
+      <DependentUpon>WeaponsForm.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="LanguageInterface.resx">
-      <DependentUpon>LanguageInterface.cs</DependentUpon>
+    <EmbeddedResource Include="DescriptionForm.resx">
+      <DependentUpon>DescriptionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LanguageForm.resx">
+      <DependentUpon>LanguageForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

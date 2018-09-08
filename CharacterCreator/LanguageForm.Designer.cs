@@ -1,6 +1,6 @@
 ﻿namespace CharacterCreator
 {
-    partial class LanguageInterface
+    partial class LanguageForm
     {
         /// <summary>
         /// Required designer variable.

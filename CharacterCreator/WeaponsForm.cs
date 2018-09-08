@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace CharacterCreator
 {
-    public partial class InventoryInterface : Form
+    public partial class WeaponsForm : Form
     {
-        public InventoryInterface()
+        public WeaponsForm()
         {
             InitializeComponent();
         }

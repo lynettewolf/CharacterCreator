@@ -908,6 +908,7 @@
             this.uxCharacterDescriptionButton.TabIndex = 0;
             this.uxCharacterDescriptionButton.Text = "Character Description";
             this.uxCharacterDescriptionButton.UseVisualStyleBackColor = true;
+            this.uxCharacterDescriptionButton.Click += new System.EventHandler(this.uxCharacterDescriptionButton_Click);
             // 
             // uxCharacterTraitsGroup
             // 

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace CharacterCreator
 {
-    public partial class SpecialAbilitiesInterface : Form
+    public partial class DescriptionForm : Form
     {
-        public SpecialAbilitiesInterface()
+        public DescriptionForm()
         {
             InitializeComponent();
         }

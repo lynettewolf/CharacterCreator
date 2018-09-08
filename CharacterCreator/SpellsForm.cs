@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace CharacterCreator
 {
-    public partial class SkillsInterface : Form
+    public partial class SpellsForm : Form
     {
-        public SkillsInterface()
+        public SpellsForm()
         {
             InitializeComponent();
         }
