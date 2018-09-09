@@ -81,5 +81,31 @@ namespace CharacterCreator
         {
             _descriptionForm.Show();
         }
+        
+        //Allows changes to eye color
+        private void uxEyesButton_Click(object sender, EventArgs e)
+        {
+            if (uxColorDialog.ShowDialog() == DialogResult.OK)
+            {
+                uxEyesPicture.BackColor = uxColorDialog.Color;
+            }
+        }
+
+        //Allows changes to hair color
+        private void uxHairButton_Click(object sender, EventArgs e)
+        {
+            if (uxColorDialog.ShowDialog() == DialogResult.OK)
+            {
+                uxHairPicture.BackColor = uxColorDialog.Color;
+            }
+        }
+        //Allows changes to skin color
+        private void uxSkinButton_Click(object sender, EventArgs e)
+        {
+            if (uxColorDialog.ShowDialog() == DialogResult.OK)
+            {
+                uxSkinPicture.BackColor = uxColorDialog.Color;
+            }
+        }
     }
 }
