@@ -16,5 +16,10 @@ namespace CharacterCreator
         {
             InitializeComponent();
         }
+
+        private void uxAddWeapon_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

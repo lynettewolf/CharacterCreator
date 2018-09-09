@@ -44,8 +44,10 @@ namespace CharacterCreator
 
         private void uxWeaponsButton_Click(object sender, EventArgs e)
         {
-            
-            _weaponsForm.Show();
+
+            if (_weaponsForm.ShowDialog() == DialogResult.OK)
+            {
+            }
         }
 
         private void uxFeatsButton_Click(object sender, EventArgs e)
