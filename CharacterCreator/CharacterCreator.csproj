@@ -57,6 +57,12 @@
     <Compile Include="FeatsForm.Designer.cs">
       <DependentUpon>FeatsForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Helper Files\RemoveDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Helper Files\RemoveDialog.Designer.cs">
+      <DependentUpon>RemoveDialog.cs</DependentUpon>
+    </Compile>
     <Compile Include="InventoryForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -104,6 +110,9 @@
     <EmbeddedResource Include="DescriptionForm.resx">
       <DependentUpon>DescriptionForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Helper Files\RemoveDialog.resx">
+      <DependentUpon>RemoveDialog.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LanguageForm.resx">
       <DependentUpon>LanguageForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -137,7 +146,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Classes\" />
-    <Folder Include="Helper Files\" />
     <Folder Include="Races\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -57,7 +57,6 @@
             // 
             // uxRemoveWeapon
             // 
-            this.uxRemoveWeapon.Enabled = false;
             this.uxRemoveWeapon.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.uxRemoveWeapon.Location = new System.Drawing.Point(260, 162);
             this.uxRemoveWeapon.Name = "uxRemoveWeapon";
@@ -65,11 +64,9 @@
             this.uxRemoveWeapon.TabIndex = 2;
             this.uxRemoveWeapon.Text = "Remove";
             this.uxRemoveWeapon.UseVisualStyleBackColor = true;
-            this.uxRemoveWeapon.Click += new System.EventHandler(this.uxRemoveWeapon_Click);
             // 
             // uxSaveWeapon
             // 
-            this.uxSaveWeapon.Enabled = false;
             this.uxSaveWeapon.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.uxSaveWeapon.Location = new System.Drawing.Point(318, 162);
             this.uxSaveWeapon.Name = "uxSaveWeapon";
@@ -77,7 +74,6 @@
             this.uxSaveWeapon.TabIndex = 3;
             this.uxSaveWeapon.Text = "Save";
             this.uxSaveWeapon.UseVisualStyleBackColor = true;
-            this.uxSaveWeapon.Click += new System.EventHandler(this.uxSaveWeapon_Click);
             // 
             // uxWeaponsGroup
             // 
@@ -120,7 +116,6 @@
             this.uxWeaponList.Name = "uxWeaponList";
             this.uxWeaponList.Size = new System.Drawing.Size(164, 164);
             this.uxWeaponList.TabIndex = 0;
-            this.uxWeaponList.SelectedIndexChanged += new System.EventHandler(this.uxWeaponList_SelectedIndexChanged);
             // 
             // uxAddWeapon
             // 
@@ -161,7 +156,6 @@
             // 
             // uxRemoveAmmo
             // 
-            this.uxRemoveAmmo.Enabled = false;
             this.uxRemoveAmmo.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.uxRemoveAmmo.Location = new System.Drawing.Point(260, 159);
             this.uxRemoveAmmo.Name = "uxRemoveAmmo";
@@ -169,7 +163,6 @@
             this.uxRemoveAmmo.TabIndex = 8;
             this.uxRemoveAmmo.Text = "Remove";
             this.uxRemoveAmmo.UseVisualStyleBackColor = true;
-            this.uxRemoveAmmo.Click += new System.EventHandler(this.uxRemoveAmmo_Click);
             // 
             // uxAmmoList
             // 
@@ -185,11 +178,9 @@
             this.uxAmmoList.Name = "uxAmmoList";
             this.uxAmmoList.Size = new System.Drawing.Size(164, 164);
             this.uxAmmoList.TabIndex = 0;
-            this.uxAmmoList.SelectedIndexChanged += new System.EventHandler(this.uxAmmoList_SelectedIndexChanged);
             // 
             // uxSaveAmmo
             // 
-            this.uxSaveAmmo.Enabled = false;
             this.uxSaveAmmo.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.uxSaveAmmo.Location = new System.Drawing.Point(318, 159);
             this.uxSaveAmmo.Name = "uxSaveAmmo";
@@ -197,7 +188,6 @@
             this.uxSaveAmmo.TabIndex = 9;
             this.uxSaveAmmo.Text = "Save";
             this.uxSaveAmmo.UseVisualStyleBackColor = true;
-            this.uxSaveAmmo.Click += new System.EventHandler(this.uxSaveAmmo_Click);
             // 
             // uxAddAmmo
             // 
@@ -208,7 +198,6 @@
             this.uxAddAmmo.TabIndex = 6;
             this.uxAddAmmo.Text = "Add";
             this.uxAddAmmo.UseVisualStyleBackColor = true;
-            this.uxAddAmmo.Click += new System.EventHandler(this.uxAddAmmo_Click);
             // 
             // uxAmmoDetails
             // 
